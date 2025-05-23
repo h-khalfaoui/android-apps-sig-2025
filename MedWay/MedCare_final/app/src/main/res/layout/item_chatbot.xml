@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Message de l'utilisateur -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/person"
+            android:tint="#1976D2"/>
+
+        <TextView
+            android:id="@+id/textQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_question"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="Exemple de question"
+            android:maxWidth="300dp" />
+    </LinearLayout>
+
+    <!-- Message de l'IA -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+
+        <ImageView
+            android:id="@+id/imageChatbot"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/chatbot"
+            android:tint="#1976D2"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textResponse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_response"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textSize="15sp"
+            android:maxWidth="300dp"
+            android:visibility="gone"
+            android:text="Réponse de l'IA" />
+    </LinearLayout>
+
+
+</LinearLayout>

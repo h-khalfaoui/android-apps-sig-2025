@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background avec image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgr1"
+        android:contentDescription="Background"
+        android:alpha="0.9" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Formulaire - Fond blanc avec légère transparence -->
+            <LinearLayout
+                android:id="@+id/formLayout"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#DDFFFFFF"
+                android:padding="16dp">
+
+            <!-- Titre du Formulaire - Rouge -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:paddingBottom="8dp"
+                android:text="Formulaire Dossier Médical"
+                android:textAlignment="center"
+                android:textColor="#E53935"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+            <!-- Tous les EditText conservent leur style original -->
+                <EditText android:id="@+id/editNom" android:hint="Nom" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editPrenom" android:hint="Prénom" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editDateNaissance" android:hint="Date de Naissance" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editSexe" android:hint="Sexe" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editGroupeSanguin" android:hint="Groupe Sanguin" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editAllergies" android:hint="Allergies" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editMaladiesChroniques" android:hint="Maladies Chroniques" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editChirurgies" android:hint="Chirurgies Passées" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editHospitalisations" android:hint="Hospitalisations" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editMedications" android:hint="Médicaments" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editDosage" android:hint="Dosage / Durée" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editAnalyses" android:hint="Analyses" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+                <EditText android:id="@+id/editImageries" android:hint="Imageries" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:layout_marginBottom="8dp" android:background="@drawable/rounded_edittext"/>
+            <!-- Bouton Sauvegarder - Rouge -->
+            <Button
+                android:id="@+id/btnSave"
+                android:text="Sauvegarder"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#E53935"
+            android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <!-- Fiche affichée  -->
+        <LinearLayout
+            android:id="@+id/ficheLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="#DDFFFFFF"
+        android:padding="16dp"
+        android:layout_marginTop="16dp">
+
+        <!-- Titre de la Fiche - Rouge -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fiche Dossier Médical"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="#E53935"
+        android:paddingBottom="8dp"
+        android:fontFamily="sans-serif-medium"/>
+
+        <!-- Texte de la fiche - Bleu foncé -->
+        <TextView
+            android:id="@+id/ficheText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#1E3A8A"
+        android:padding="8dp" />
+
+        <!-- Bouton Modifier - Bleu -->
+        <Button
+            android:id="@+id/btnModifier"
+            android:text="Modifier"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#1E3A8A"
+        android:textColor="#FFFFFF"/>
+
+        <!-- Bouton Supprimer - Rouge -->
+        <Button
+            android:id="@+id/btnSupprimer"
+            android:text="Supprimer"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#E53935"
+        android:textColor="#FFFFFF"/>
+    </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+    </FrameLayout>

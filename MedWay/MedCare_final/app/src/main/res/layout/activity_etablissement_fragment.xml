@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Image de fond -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgr1"
+        android:contentDescription="Image de fond"
+        android:alpha="0.9" />
+
+    <!-- Contenu avec ScrollView au-dessus -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:fillViewport="true"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="20dp"
+                card_view:cardElevation="10dp"
+                android:layout_marginBottom="24dp"
+                android:background="#FFFFFF"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Créer un Établissement"
+                        android:textAlignment="center"
+                        android:textSize="22sp"
+                        android:textColor="#E53935"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="20dp" />
+
+                    <!-- Champs de formulaire -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nom d'Établissement :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+
+                    <EditText
+                        android:id="@+id/input_nom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:hint="Entrer le Nom"
+                        android:padding="12dp" />
+
+                    <!-- Répéter ce bloc pour chaque champ -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Adresse :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_adresse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:hint="Entrer l'Adresse"
+                        android:padding="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Téléphone :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:hint="Entrer le Téléphone"
+                        android:padding="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:hint="Entrer l'Email"
+                        android:padding="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Responsable :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_responsable"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:hint="Entrer le Responsable"
+                        android:padding="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Type d'Établissement :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:hint="Entrer le Type"
+                        android:padding="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Site Web :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_siteweb"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:hint="Entrer le Site Web"
+                        android:padding="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Image URL :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_imageurl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:hint="Entrer l'URL"
+                        android:padding="12dp" />
+
+                    <Button
+                        android:id="@+id/btn_ajouter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="12dp"
+                        android:text="Ajouter"
+                        android:textStyle="bold"
+                        android:backgroundTint="#E53935"
+                        android:textColor="@android:color/white"
+                        android:layout_marginTop="8dp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Liste des établissements -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Liste des Établissements"
+                android:textSize="18sp"
+                android:textColor="#E53935"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:id="@+id/liste_etablissements"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <ProgressBar
+                android:id="@+id/loading_indicator_etab"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

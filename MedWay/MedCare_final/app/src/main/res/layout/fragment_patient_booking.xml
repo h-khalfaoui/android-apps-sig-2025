@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/colorBackground"
+    tools:context=".ui.PatientBookingFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"
+        app:elevation="0dp">
+
+        <LinearLayout
+            android:id="@+id/header_booking_context"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="12dp">
+
+            <TextView
+                android:id="@+id/text_view_booking_for_establishment_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Réservation Pour :"
+                android:textAppearance="?attr/textAppearanceCaption"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_view_booking_establishment_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Hôpital Hassan II"
+                android:textAppearance="?attr/textAppearanceHeadline5"
+                android:textColor="?attr/colorPrimary"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="80dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_calendar_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="16dp"
+                app:cardElevation="4dp"
+                app:cardCornerRadius="12dp">
+
+                <CalendarView
+                    android:id="@+id/calendar_view_booking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <LinearLayout
+                android:id="@+id/header_available_slots"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="20dp"
+                android:paddingTop="24dp"
+                android:paddingBottom="8dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_time_slots_themed"
+                    app:tint="?attr/colorPrimary"
+                    android:layout_marginEnd="8dp"
+                    android:contentDescription="Icône créneaux"/>
+
+                <TextView
+                    android:id="@+id/label_available_slots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Créneaux Disponibles"
+                    android:textAppearance="?attr/textAppearanceSubtitle1"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/text_view_selected_date_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Pour le Mercredi 15 Mai 2024"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?android:attr/textColorSecondary"
+                android:paddingHorizontal="20dp"
+                android:layout_marginBottom="8dp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="150dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_view_slots"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:nestedScrollingEnabled="false"
+                    android:clipToPadding="false"
+                    android:paddingHorizontal="16dp"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:spanCount="3"
+                    tools:listitem="@layout/item_timeslot"
+                    tools:itemCount="6"
+                    android:visibility="visible"/>
+
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:id="@+id/loading_indicator_booking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:indicatorColor="?attr/colorPrimary"
+                    android:indeterminate="true"
+                    android:visibility="gone"
+                    tools:visibility="gone"/>
+
+                <LinearLayout
+                    android:id="@+id/layout_no_slots"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center"
+                    android:padding="24dp"
+                    android:visibility="gone"
+                    tools:visibility="visible">
+
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:src="@drawable/ic_no_slots_available_themed"
+                        app:tint="?attr/colorOnSurface"
+                        app:tintMode="src_in"
+                        android:alpha="0.6"
+                        android:layout_marginBottom="16dp"
+                        android:contentDescription="Aucun Créneau"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/text_view_no_slots_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aucun Créneau Disponible"
+                        android:textStyle="bold"
+                        android:textAppearance="?attr/textAppearanceSubtitle1"
+                        android:textColor="?android:attr/textColorPrimary"
+                        android:layout_marginBottom="4dp"/>
+                    <TextView
+                        android:id="@+id/text_view_no_slots_message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Veuillez Sélectionner Une Autre Date."
+                        android:textStyle="bold"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="?android:attr/textColorSecondary"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_view_my_appointments"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="Voir Mes RDV"
+        android:textStyle="bold"
+        app:icon="@drawable/appointment_list"
+        app:iconGravity="textStart"/>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_confirm_booking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="24dp"
+        android:text="Confirmer Réservation"
+        android:textStyle="bold"
+        app:icon="@drawable/ic_check_circle_themed"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,111 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    app:cardBackgroundColor="@color/item_card_background"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:strokeColor="@color/item_card_stroke"
+    app:strokeWidth="1dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Hospital Icon -->
+        <ImageView
+            android:id="@+id/image_view_hospital_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/hospital1"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="Icône d'établissement" />
+
+        <!-- Hospital Name -->
+        <TextView
+            android:id="@+id/text_view_hospital_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="?android:attr/textColorPrimary"
+            tools:text="Hôpital Hassan II"
+            app:layout_constraintStart_toEndOf="@id/image_view_hospital_icon"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/layout_action_area" />
+
+        <!-- Hospital Type -->
+        <TextView
+            android:id="@+id/text_view_hospital_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textColor="?android:attr/textColorSecondary"
+            tools:text="Hôpital"
+            app:layout_constraintStart_toStartOf="@id/text_view_hospital_name"
+            app:layout_constraintTop_toBottomOf="@id/text_view_hospital_name"
+            app:layout_constraintEnd_toEndOf="@id/text_view_hospital_name" />
+
+        <!-- Hospital Address -->
+        <TextView
+            android:id="@+id/text_view_hospital_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textAppearance="?attr/textAppearanceCaption"
+            android:textColor="?android:attr/textColorSecondary"
+            tools:text="Adresse de l'hôpital"
+            app:layout_constraintStart_toStartOf="@id/text_view_hospital_name"
+            app:layout_constraintTop_toBottomOf="@id/text_view_hospital_type"
+            app:layout_constraintEnd_toEndOf="@id/text_view_hospital_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Action Area -->
+        <LinearLayout
+            android:id="@+id/layout_action_area"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingStart="12dp"
+            android:paddingEnd="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <!-- Availability Icon -->
+            <ImageView
+                android:id="@+id/icon_view_availability"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/ic_event_available_24"
+
+                android:contentDescription="Voir les disponibilités" />
+
+            <!-- Action Cue Text -->
+            <TextView
+                android:id="@+id/text_view_action_cue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Réserver"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp"
+                android:textAppearance="?attr/textAppearanceCaption"
+                android:textColor="?attr/colorPrimary"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Image de fond -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="487dp"
+        android:alpha="0.9"
+        android:contentDescription="Image de fond"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgr1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:background="#FFFFFF"
+        android:alpha="0.95"
+        android:layout_margin="16dp"
+        android:elevation="8dp"
+        android:backgroundTintMode="src_over">
+
+        <ImageView
+            android:id="@+id/avisIcon"
+            android:layout_width="202dp"
+            android:layout_height="97dp"
+            android:layout_gravity="center"
+
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Icône avis"
+            android:src="@drawable/medlogo" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Laissez un Avis"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#1E3A8A"
+            android:layout_marginBottom="16dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBarAvis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            android:progressTint="#E53935"
+            android:layout_gravity="center_horizontal" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Votre Commentaire"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusTopStart="12dp"
+            app:boxCornerRadiusTopEnd="12dp"
+            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="12dp"
+            app:hintTextColor="#1E3A8A"
+            app:boxStrokeColor="#1E3A8A">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextCommentAvis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:gravity="top|start"
+                android:inputType="textMultiLine"
+                android:maxLines="5"
+                android:textColor="#1E3A8A" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonEnvoyerAvis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envoyer"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            app:backgroundColor="#E53935"
+            app:cornerRadius="16dp"
+            app:icon="@drawable/ic_send"
+            app:iconGravity="textStart"
+            app:iconPadding="8dp"
+            app:iconTint="@android:color/white"
+            style="@style/Widget.MaterialComponents.Button" />
+    </LinearLayout>
+</FrameLayout>

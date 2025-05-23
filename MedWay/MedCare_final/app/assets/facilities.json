@@ -1,0 +1,2294 @@
+[
+  {
+    "name": "Clinique Tingis",
+    "type": "Clinique",
+    "latitude": 35.7709451,
+    "longitude": -5.8073402
+  },
+  {
+    "name": "Pharmacie Anegay صيدلية أنغاي",
+    "type": "Pharmacy",
+    "latitude": 35.7851172,
+    "longitude": -5.8124517
+  },
+  {
+    "name": "Pharmacie Bab Bhar صيدلية باب البحر",
+    "type": "Pharmacy",
+    "latitude": 35.7878722,
+    "longitude": -5.8117732
+  },
+  {
+    "name": "Pharmacie Al Maghrib صيدلية المغرب",
+    "type": "Pharmacy",
+    "latitude": 35.7826008,
+    "longitude": -5.8129687
+  },
+  {
+    "name": "Pharmacie La Cité Universitaire صيدلية الحي الجامعي",
+    "type": "Pharmacy",
+    "latitude": 35.7338104,
+    "longitude": -5.8846632
+  },
+  {
+    "name": "Pharmacie Moderne صيدلية العصرية",
+    "type": "Pharmacy",
+    "latitude": 35.784065,
+    "longitude": -5.8126868
+  },
+  {
+    "name": "Pharmacie Cervantes صيدلية سيرفانطيس",
+    "type": "Pharmacy",
+    "latitude": 35.7826706,
+    "longitude": -5.8104385
+  },
+  {
+    "name": "Unnamed Facility",
+    "type": "Dentiste",
+    "latitude": 35.7783815,
+    "longitude": -5.8086548
+  },
+  {
+    "name": "Pharmacie Masjid Al Azhar صيدلية مسجد الأزهر",
+    "type": "Pharmacy",
+    "latitude": 35.7606341,
+    "longitude": -5.825484
+  },
+  {
+    "name": "Centre de Santé Bni Ouriaghel",
+    "type": "Cabinet Médical",
+    "latitude": 35.7459656,
+    "longitude": -5.82498
+  },
+  {
+    "name": "Pharmacie Al Aouama Al Gharbia صيدلية العوامة الغربية",
+    "type": "Pharmacy",
+    "latitude": 35.7261824,
+    "longitude": -5.8038898
+  },
+  {
+    "name": "Pharmacie Al Hanae صيدلية الهناء",
+    "type": "Pharmacy",
+    "latitude": 35.7308435,
+    "longitude": -5.8029761
+  },
+  {
+    "name": "Pharmacie Al Machkouri صيدلية المشكوري",
+    "type": "Pharmacy",
+    "latitude": 35.7329935,
+    "longitude": -5.8152164
+  },
+  {
+    "name": "Dr. El Alaoui",
+    "type": "Cabinet Médical",
+    "latitude": 35.7805678,
+    "longitude": -5.812649
+  },
+  {
+    "name": "Pharmacie Marbella صيدلية مربيا",
+    "type": "Pharmacy",
+    "latitude": 35.7264593,
+    "longitude": -5.7564234
+  },
+  {
+    "name": "Pharmacie De La Plage صيدلية الشاطئ",
+    "type": "Pharmacy",
+    "latitude": 35.7788382,
+    "longitude": -5.8025471
+  },
+  {
+    "name": "Pharmacie Aswak Assalam صيدلية أسواق السلام",
+    "type": "Pharmacy",
+    "latitude": 35.7379607,
+    "longitude": -5.8736926
+  },
+  {
+    "name": "Arrazi Radiologie",
+    "type": "Clinique",
+    "latitude": 35.7762857,
+    "longitude": -5.8140609
+  },
+  {
+    "name": "Pharmacie du Soleil صيدلية الشمس",
+    "type": "Pharmacy",
+    "latitude": 35.7748656,
+    "longitude": -5.810182
+  },
+  {
+    "name": "Centre De Biologic Medicale",
+    "type": "Clinique",
+    "latitude": 35.7734271,
+    "longitude": -5.8098306
+  },
+  {
+    "name": "Cabinet Medical",
+    "type": "Cabinet Médical",
+    "latitude": 35.7702061,
+    "longitude": -5.8292144
+  },
+  {
+    "name": "Pharmacie Europharm صيدلية اوروفارم",
+    "type": "Pharmacy",
+    "latitude": 35.7150964,
+    "longitude": -5.8043066
+  },
+  {
+    "name": "Pharmacie du Conseil صيدلية النصيحة",
+    "type": "Pharmacy",
+    "latitude": 35.7377338,
+    "longitude": -5.8085571
+  },
+  {
+    "name": "Pharmacie Makarim صيدلية مكارم",
+    "type": "Pharmacy",
+    "latitude": 35.7411624,
+    "longitude": -5.8314178
+  },
+  {
+    "name": "Clinique Aoufi",
+    "type": "Clinic",
+    "latitude": 35.7820882,
+    "longitude": -5.8220505
+  },
+  {
+    "name": "Pharmacie Al Baraka صيدلية البركة",
+    "type": "Pharmacy",
+    "latitude": 35.7815245,
+    "longitude": -5.8211285
+  },
+  {
+    "name": "Pharmacie Branes 2 صيدلية برانس",
+    "type": "Pharmacy",
+    "latitude": 35.7614251,
+    "longitude": -5.8360408
+  },
+  {
+    "name": "Pharmacie Sidi Boukhari صيدلية سيدي البخاري",
+    "type": "Pharmacy",
+    "latitude": 35.7829045,
+    "longitude": -5.8319132
+  },
+  {
+    "name": "صيدلية ياسين",
+    "type": "Pharmacy",
+    "latitude": 35.7696784,
+    "longitude": -5.8275932
+  },
+  {
+    "name": "Cabinet Medical",
+    "type": "Cabinet Médical",
+    "latitude": 35.7473193,
+    "longitude": -5.8390676
+  },
+  {
+    "name": "Laboratoire Aoufi d'Analyses Médicales",
+    "type": "Cabinet Médical",
+    "latitude": 35.7444737,
+    "longitude": -5.8327526
+  },
+  {
+    "name": "Pharmacie El Moufid صيدلية المفيد",
+    "type": "Pharmacy",
+    "latitude": 35.7468356,
+    "longitude": -5.8354746
+  },
+  {
+    "name": "Cabinet Dentaire Pour Enfants",
+    "type": "Dentiste",
+    "latitude": 35.7694112,
+    "longitude": -5.8074682
+  },
+  {
+    "name": "Droguerie أجزاخانة",
+    "type": "Pharmacy",
+    "latitude": 35.7336139,
+    "longitude": -5.8813982
+  },
+  {
+    "name": "Pharmacie Boukhalef صيدلية بوخالف",
+    "type": "Pharmacy",
+    "latitude": 35.7352745,
+    "longitude": -5.8798639
+  },
+  {
+    "name": "Droguerie Assalam",
+    "type": "Pharmacy",
+    "latitude": 35.7373966,
+    "longitude": -5.8857644
+  },
+  {
+    "name": "Médecin",
+    "type": "Cabinet Médical",
+    "latitude": 35.7332326,
+    "longitude": -5.8819663
+  },
+  {
+    "name": "Pharmacie Sidi Bouwafi صيدلية سيدي بوافي",
+    "type": "Pharmacie",
+    "latitude": 35.7650061,
+    "longitude": -5.8235157
+  },
+  {
+    "name": "Pharmacie Afilal صيدلية أفيلال",
+    "type": "Pharmacie",
+    "latitude": 35.7619903,
+    "longitude": -5.7998232
+  },
+  {
+    "name": "Pharmacie Place Des Arômes صيدلية العبير",
+    "type": "Pharmacie",
+    "latitude": 35.7608613,
+    "longitude": -5.7958861
+  },
+  {
+    "name": "Pharmacie Metioui صيدلية المتيوي",
+    "type": "Pharmacie",
+    "latitude": 35.7748294,
+    "longitude": -5.7980371
+  },
+  {
+    "name": "Pharmacie Al Madkhal Al Karim صيدلية المدخل الكريم",
+    "type": "Pharmacie",
+    "latitude": 35.7698574,
+    "longitude": -5.7893742
+  },
+  {
+    "name": "Pharmacie Doha صيدلية الضحى",
+    "type": "Pharmacie",
+    "latitude": 35.7601813,
+    "longitude": -5.7913394
+  },
+  {
+    "name": "Pharmacie De Tanger صيدلية طنجة",
+    "type": "Pharmacie",
+    "latitude": 35.7546704,
+    "longitude": -5.7927828
+  },
+  {
+    "name": "Pharmacie Touzani صيدلية التوزاني",
+    "type": "Pharmacie",
+    "latitude": 35.7586041,
+    "longitude": -5.7933354
+  },
+  {
+    "name": "Pharmacie El Irfane صيدلية العرفان 2",
+    "type": "Pharmacie",
+    "latitude": 35.7412978,
+    "longitude": -5.886864
+  },
+  {
+    "name": "Pharmacie Al Faraj صيدلية الفرج",
+    "type": "Pharmacie",
+    "latitude": 35.7374727,
+    "longitude": -5.8835907
+  },
+  {
+    "name": "Pharmacie Cap Spartel صيدلية كاب سبارطيل",
+    "type": "Pharmacie",
+    "latitude": 35.737151,
+    "longitude": -5.8875324
+  },
+  {
+    "name": "Pharmacie Al Irfane صيدلية العرفان",
+    "type": "Pharmacie",
+    "latitude": 35.7324127,
+    "longitude": -5.8819208
+  },
+  {
+    "name": "Pharmacie Route de Rabat صيدلية طريق الرباط",
+    "type": "Pharmacie",
+    "latitude": 35.7296197,
+    "longitude": -5.8802996
+  },
+  {
+    "name": "Pharmacie Al Moustakbal صيدلية المستقبل",
+    "type": "Pharmacie",
+    "latitude": 35.7338,
+    "longitude": -5.8686245
+  },
+  {
+    "name": "Pharmacie Bennani صيدلية بناني",
+    "type": "Pharmacie",
+    "latitude": 35.7403433,
+    "longitude": -5.8778488
+  },
+  {
+    "name": "Pharmacie Achakkar صيدلية أشقار",
+    "type": "Pharmacie",
+    "latitude": 35.7447997,
+    "longitude": -5.8845612
+  },
+  {
+    "name": "Pharmacie Al Hamd صيدلية الحمد",
+    "type": "Pharmacy",
+    "latitude": 35.7355071,
+    "longitude": -5.8587766
+  },
+  {
+    "name": "Pharmacie Hassani صيدلية الحسني",
+    "type": "Pharmacie",
+    "latitude": 35.7371355,
+    "longitude": -5.8556197
+  },
+  {
+    "name": "Pharmacie Nour Moujamma Hassani صيدلية نور المجمع الحسني",
+    "type": "Pharmacie",
+    "latitude": 35.7309886,
+    "longitude": -5.8524769
+  },
+  {
+    "name": "Pharmacie Wissal صيدلية وصال",
+    "type": "Pharmacie",
+    "latitude": 35.7323562,
+    "longitude": -5.8557741
+  },
+  {
+    "name": "Pharmacie Bayti صيدلية بيتي",
+    "type": "Pharmacie",
+    "latitude": 35.7315199,
+    "longitude": -5.848763
+  },
+  {
+    "name": "Pharmacie Ajial صيدلية أجيال",
+    "type": "Pharmacie",
+    "latitude": 35.7304537,
+    "longitude": -5.8458172
+  },
+  {
+    "name": "Pharmacie Bir El Ghazi صيدلية بير الغازي",
+    "type": "Pharmacie",
+    "latitude": 35.7132712,
+    "longitude": -5.8109078
+  },
+  {
+    "name": "Pharmacie La Perle du Boughaz صيدلية جوهرة البوغاز",
+    "type": "Pharmacie",
+    "latitude": 35.7096498,
+    "longitude": -5.8066446
+  },
+  {
+    "name": "Pharmacie la Vie صيدلية الحياة",
+    "type": "Pharmacie",
+    "latitude": 35.7121675,
+    "longitude": -5.804804
+  },
+  {
+    "name": "Pharmacie Salima صيدلية سليمة",
+    "type": "Pharmacie",
+    "latitude": 35.7205009,
+    "longitude": -5.7919902
+  },
+  {
+    "name": "Pharmacie Khadak Dir صيدلية خضر دير",
+    "type": "Pharmacie",
+    "latitude": 35.7229624,
+    "longitude": -5.7918022
+  },
+  {
+    "name": "Pharmacie Hjar Sfar صيدلية حجر الصفر",
+    "type": "Pharmacie",
+    "latitude": 35.7230817,
+    "longitude": -5.7891985
+  },
+  {
+    "name": "Pharmacie Madcher Al Aouama صيدلية مدشر العوامة",
+    "type": "Pharmacie",
+    "latitude": 35.7218432,
+    "longitude": -5.794929
+  },
+  {
+    "name": "Pharmacie Azhar Chifae صيدلية أزهار الشفاء",
+    "type": "Pharmacie",
+    "latitude": 35.7203982,
+    "longitude": -5.7979005
+  },
+  {
+    "name": "Pharmacie Aïn Dalya صيدلية عين دالية",
+    "type": "Pharmacie",
+    "latitude": 35.7201044,
+    "longitude": -5.8044386
+  },
+  {
+    "name": "Pharmacie Khandaq El Ward صيدلية خندق الورد",
+    "type": "Pharmacie",
+    "latitude": 35.7278783,
+    "longitude": -5.7930472
+  },
+  {
+    "name": "Pharmacie Abdelmajid Al Atia صيدلية عبد المجيد العطية",
+    "type": "Pharmacie",
+    "latitude": 35.7279901,
+    "longitude": -5.7880793
+  },
+  {
+    "name": "Pharmacie Adam صيدلية اًدم",
+    "type": "Pharmacie",
+    "latitude": 35.7320608,
+    "longitude": -5.7882049
+  },
+  {
+    "name": "Pharmacie Ward El Aouama صيدلية ورد العوامة",
+    "type": "Pharmacie",
+    "latitude": 35.7305111,
+    "longitude": -5.7850469
+  },
+  {
+    "name": "Pharmacie Al Assil صيدلية الأصيل",
+    "type": "Pharmacie",
+    "latitude": 35.7315316,
+    "longitude": -5.7661858
+  },
+  {
+    "name": "Pharmacie Sekka Aouama صيدلية السكة العوامة",
+    "type": "Pharmacie",
+    "latitude": 35.7322381,
+    "longitude": -5.7944065
+  },
+  {
+    "name": "Pharmacie Al karam صيدلية الكرم",
+    "type": "Pharmacie",
+    "latitude": 35.7274639,
+    "longitude": -5.768369
+  },
+  {
+    "name": "Pharmacie Ain Echifae صيدلية عين الشفاء",
+    "type": "Pharmacie",
+    "latitude": 35.7352668,
+    "longitude": -5.8510317
+  },
+  {
+    "name": "Pharmacie Al Aouama Charkia صيدلية العوامة الشرقية",
+    "type": "Pharmacie",
+    "latitude": 35.7240954,
+    "longitude": -5.79953
+  },
+  {
+    "name": "Pharmacie Gare Routière صيدلية المحطة الطرقية",
+    "type": "Pharmacie",
+    "latitude": 35.7228895,
+    "longitude": -5.8610412
+  },
+  {
+    "name": "Pharmacie du Grand Stade صيدلية الملعب الكبير",
+    "type": "Pharmacie",
+    "latitude": 35.7382582,
+    "longitude": -5.847701
+  },
+  {
+    "name": "Pharmacie Lilia صيدلية ليليا",
+    "type": "Pharmacie",
+    "latitude": 35.7153469,
+    "longitude": -5.8846399
+  },
+  {
+    "name": "Pharmacie L'Amitié صيدلية الصداقة",
+    "type": "Pharmacie",
+    "latitude": 35.723227,
+    "longitude": -5.878017
+  },
+  {
+    "name": "Pharmacie Houssam صيدلية حسام",
+    "type": "Pharmacie",
+    "latitude": 35.7118735,
+    "longitude": -5.8938187
+  },
+  {
+    "name": "Pharmacie El Filali صيدلية الفيلالي",
+    "type": "Pharmacie",
+    "latitude": 35.7097019,
+    "longitude": -5.8987876
+  },
+  {
+    "name": "Pharmacie Ibn Al Arabi صيدلية ابن العربي",
+    "type": "Pharmacie",
+    "latitude": 35.7402627,
+    "longitude": -5.8677095
+  },
+  {
+    "name": "Pharmacie Marshan صيدلية مرشان",
+    "type": "Pharmacie",
+    "latitude": 35.7409228,
+    "longitude": -5.8663561
+  },
+  {
+    "name": "Pharmacie Ibn Khaldoun صيدلية ابن خلدون",
+    "type": "Pharmacie",
+    "latitude": 35.7469497,
+    "longitude": -5.7956736
+  },
+  {
+    "name": "Pharmacie Dar Tounsi صيدلية دار التونسي",
+    "type": "Pharmacie",
+    "latitude": 35.7525722,
+    "longitude": -5.7988798
+  },
+  {
+    "name": "Pharmacie Al Yakine صيدلية اليقين",
+    "type": "Pharmacie",
+    "latitude": 35.7521903,
+    "longitude": -5.7963115
+  },
+  {
+    "name": "Pharmacie Al Majd صيدلية المجد",
+    "type": "Pharmacie",
+    "latitude": 35.7450726,
+    "longitude": -5.7963218
+  },
+  {
+    "name": "Pharmacie La Source صيدلية المنبع",
+    "type": "Pharmacie",
+    "latitude": 35.7421059,
+    "longitude": -5.7966406
+  },
+  {
+    "name": "Pharmacie Mountassir صيدلية منتصر",
+    "type": "Pharmacie",
+    "latitude": 35.7379854,
+    "longitude": -5.7990585
+  },
+  {
+    "name": "Pharmacie Grand Maghreb صيدلية المغرب الكبير",
+    "type": "Pharmacie",
+    "latitude": 35.728395,
+    "longitude": -5.8061626
+  },
+  {
+    "name": "Pharmacie Doha Louama صيدلية الضحى العوامة",
+    "type": "Pharmacie",
+    "latitude": 35.7243955,
+    "longitude": -5.806841
+  },
+  {
+    "name": "Pharmacie Route El Aouama صيدلية طريق العوامة",
+    "type": "Pharmacie",
+    "latitude": 35.7339531,
+    "longitude": -5.8018479
+  },
+  {
+    "name": "Pharmacie Zineb صيدلية زينب",
+    "type": "Pharmacie",
+    "latitude": 35.7344339,
+    "longitude": -5.8052226
+  },
+  {
+    "name": "Pharmacie El Attabi صيدلية العتابي",
+    "type": "Pharmacie",
+    "latitude": 35.737058,
+    "longitude": -5.8029729
+  },
+  {
+    "name": "Pharmacie Al Zahara صيدلية الزهارة",
+    "type": "Pharmacie",
+    "latitude": 35.7408118,
+    "longitude": -5.8012384
+  },
+  {
+    "name": "Pharmacie Al Hambra صيدلية الحمراء",
+    "type": "Pharmacie",
+    "latitude": 35.7389882,
+    "longitude": -5.8055448
+  },
+  {
+    "name": "Pharmacie Al Aouda صيدلية العودة",
+    "type": "Pharmacie",
+    "latitude": 35.7470338,
+    "longitude": -5.8057471
+  },
+  {
+    "name": "Pharmacie Hamza صيدلية حمزة",
+    "type": "Pharmacie",
+    "latitude": 35.7482557,
+    "longitude": -5.8017203
+  },
+  {
+    "name": "Pharmacie Anoual صيدلية أنوال",
+    "type": "Pharmacie",
+    "latitude": 35.750137,
+    "longitude": -5.7993912
+  },
+  {
+    "name": "Pharmacie Al Houria صيدلية الحرية",
+    "type": "Pharmacie",
+    "latitude": 35.7467466,
+    "longitude": -5.8003376
+  },
+  {
+    "name": "Pharmacie Annour صيدلية النور",
+    "type": "Pharmacie",
+    "latitude": 35.7447193,
+    "longitude": -5.8017768
+  },
+  {
+    "name": "Pharmacie Sania صيدلية السانيا",
+    "type": "Pharmacie",
+    "latitude": 35.7429855,
+    "longitude": -5.8060324
+  },
+  {
+    "name": "Pharmacie El Aouama صيدلية العوامة",
+    "type": "Pharmacie",
+    "latitude": 35.7433347,
+    "longitude": -5.7997666
+  },
+  {
+    "name": "Pharmacie Jirari صيدلية الجيراري",
+    "type": "Pharmacie",
+    "latitude": 35.7488173,
+    "longitude": -5.80866
+  },
+  {
+    "name": "Pharmacie Afriquia صيدلية إفريقيا",
+    "type": "Pharmacie",
+    "latitude": 35.752572,
+    "longitude": -5.8070116
+  },
+  {
+    "name": "Pharmacie Moulay Ali Cherif صيدلية مولي علي الشريف",
+    "type": "Pharmacie",
+    "latitude": 35.7515983,
+    "longitude": -5.8020735
+  },
+  {
+    "name": "Pharmacie Fares صيدلية فارس",
+    "type": "Pharmacie",
+    "latitude": 35.7555289,
+    "longitude": -5.7948987
+  },
+  {
+    "name": "Pharmacie du Quartier صيدلية الحي",
+    "type": "Pharmacy",
+    "latitude": 35.7572738,
+    "longitude": -5.7965159
+  },
+  {
+    "name": "Pharmacie Irchad صيدلية الإرشاد",
+    "type": "Pharmacy",
+    "latitude": 35.7553991,
+    "longitude": -5.7989719
+  },
+  {
+    "name": "Pharmacie Al Raha صيدلية الراحة",
+    "type": "Pharmacy",
+    "latitude": 35.7660064,
+    "longitude": -5.8049135
+  },
+  {
+    "name": "Pharmacie Passadena صيدلية باسادينا",
+    "type": "Pharmacy",
+    "latitude": 35.7660792,
+    "longitude": -5.7995678
+  },
+  {
+    "name": "Grande Pharmacie Rif صيدلية الريف الكبرى",
+    "type": "Pharmacy",
+    "latitude": 35.7539222,
+    "longitude": -5.8100232
+  },
+  {
+    "name": "Pharmacie Benallal صيدلية ابن علال",
+    "type": "Pharmacy",
+    "latitude": 35.7554299,
+    "longitude": -5.8020759
+  },
+  {
+    "name": "Pharmacie Hay Bouhout صيدلية حي بوحوت",
+    "type": "Pharmacy",
+    "latitude": 35.7553348,
+    "longitude": -5.8055756
+  },
+  {
+    "name": "Pharmacie de la Santé صيدلية الصحة",
+    "type": "Pharmacy",
+    "latitude": 35.7581749,
+    "longitude": -5.8015535
+  },
+  {
+    "name": "Pharmacie Tafilalet صيدلية تافيلالت",
+    "type": "Pharmacy",
+    "latitude": 35.7571433,
+    "longitude": -5.8103002
+  },
+  {
+    "name": "Pharmacie Al Hikma صيدلية الحكمة",
+    "type": "Pharmacy",
+    "latitude": 35.7591814,
+    "longitude": -5.8048347
+  },
+  {
+    "name": "Pharmacie Drissia صيدلية الإدريسية",
+    "type": "Pharmacy",
+    "latitude": 35.7622996,
+    "longitude": -5.8034792
+  },
+  {
+    "name": "Pharmacie du Parc صيدلية الروض",
+    "type": "Pharmacy",
+    "latitude": 35.7630107,
+    "longitude": -5.8126443
+  },
+  {
+    "name": "Pharmacie Province صيدلية العمالة",
+    "type": "Pharmacy",
+    "latitude": 35.7643841,
+    "longitude": -5.8082636
+  },
+  {
+    "name": "Pharmacie Al Kodss صيدلية القدس",
+    "type": "Pharmacy",
+    "latitude": 35.7625622,
+    "longitude": -5.8065548
+  },
+  {
+    "name": "Pharmacie Al Fahs صيدلية الفحص",
+    "type": "Pharmacy",
+    "latitude": 35.7503577,
+    "longitude": -5.8147573
+  },
+  {
+    "name": "Pharmacie Assalam صيدلية السلام",
+    "type": "Pharmacy",
+    "latitude": 35.7518181,
+    "longitude": -5.8116118
+  },
+  {
+    "name": "Pharmacie Zaoudia صيدلية الزاودية",
+    "type": "Pharmacy",
+    "latitude": 35.7555978,
+    "longitude": -5.8166095
+  },
+  {
+    "name": "Pharmacie Masjid Mabrouka صيدلية مسجد مبروكة",
+    "type": "Pharmacy",
+    "latitude": 35.7572922,
+    "longitude": -5.8132476
+  },
+  {
+    "name": "Pharmacie Beni Makada صيدلية بني مكادة",
+    "type": "Pharmacy",
+    "latitude": 35.7591748,
+    "longitude": -5.8128161
+  },
+  {
+    "name": "Pharmacie Mabrouka صيدلية مبروكة",
+    "type": "Pharmacy",
+    "latitude": 35.7582633,
+    "longitude": -5.8147929
+  },
+  {
+    "name": "Pharmacie Al Kantara صيدلية القنطرة",
+    "type": "Pharmacy",
+    "latitude": 35.7589782,
+    "longitude": -5.8214875
+  },
+  {
+    "name": "Pharmacie Ibn Annafis صيدلية بن النفيس",
+    "type": "Pharmacy",
+    "latitude": 35.7613621,
+    "longitude": -5.8172393
+  },
+  {
+    "name": "Pharmacie Hay Al Boughaz صيدلية حي البوغاز",
+    "type": "Pharmacy",
+    "latitude": 35.7611284,
+    "longitude": -5.8141052
+  },
+  {
+    "name": "Pharmacie Mouadafine صيدلية الموظفين",
+    "type": "Pharmacy",
+    "latitude": 35.7587386,
+    "longitude": -5.8186058
+  },
+  {
+    "name": "Pharmacie Préfecture Beni Makada صيدلية عمالة بني مكادة",
+    "type": "Pharmacy",
+    "latitude": 35.7418415,
+    "longitude": -5.8097779
+  },
+  {
+    "name": "Pharmacie Al Fath صيدلية الفتح",
+    "type": "Pharmacy",
+    "latitude": 35.7421352,
+    "longitude": -5.8125651
+  },
+  {
+    "name": "Pharmacie Badr صيدلية بدر",
+    "type": "Pharmacy",
+    "latitude": 35.7450738,
+    "longitude": -5.8094117
+  },
+  {
+    "name": "Pharmacie Belkacem صيدلية بلقاسم",
+    "type": "Pharmacy",
+    "latitude": 35.7472566,
+    "longitude": -5.8114154
+  },
+  {
+    "name": "Pharmacie Ouled Allal صيدلية أولاد علال",
+    "type": "Pharmacy",
+    "latitude": 35.7435833,
+    "longitude": -5.8152877
+  },
+  {
+    "name": "Pharmacie Nouvelle الصيدلية الجديدة",
+    "type": "Pharmacy",
+    "latitude": 35.7573328,
+    "longitude": -5.8242892
+  },
+  {
+    "name": "Pharmacie Al Hilal صيدلية الهلال",
+    "type": "Pharmacy",
+    "latitude": 35.7542749,
+    "longitude": -5.8302825
+  },
+  {
+    "name": "Pharmacie du Nord صيدلية الشمال",
+    "type": "Pharmacy",
+    "latitude": 35.7584477,
+    "longitude": -5.8280272
+  },
+  {
+    "name": "Pharmacie Anas صيدلية أنس",
+    "type": "Pharmacy",
+    "latitude": 35.751932,
+    "longitude": -5.8318449
+  },
+  {
+    "name": "Pharmacie Bni Touzine صيدلية بني توزين",
+    "type": "Pharmacy",
+    "latitude": 35.7361164,
+    "longitude": -5.8436013
+  },
+  {
+    "name": "Pharmacie Riad ahlen صيدلية رياض أهلا",
+    "type": "Pharmacy",
+    "latitude": 35.742425,
+    "longitude": -5.843168
+  },
+  {
+    "name": "Pharmacie Sara صيدلية سارة",
+    "type": "Pharmacy",
+    "latitude": 35.7381529,
+    "longitude": -5.8357057
+  },
+  {
+    "name": "Pharmacie Chems Ahlan صيدلية شمس أهلا",
+    "type": "Pharmacy",
+    "latitude": 35.7423713,
+    "longitude": -5.8384262
+  },
+  {
+    "name": "Grande Pharmacie Assia صيدلية اسيا الكبرى",
+    "type": "Pharmacy",
+    "latitude": 35.7444463,
+    "longitude": -5.8328432
+  },
+  {
+    "name": "Pharmacie Al Kaoutar صيدلية الكوثر",
+    "type": "Pharmacy",
+    "latitude": 35.7450295,
+    "longitude": -5.8393477
+  },
+  {
+    "name": "Pharmacie Taferssiti صيدلية تافرسيتي",
+    "type": "Pharmacy",
+    "latitude": 35.7414332,
+    "longitude": -5.8336189
+  },
+  {
+    "name": "Pharmacie Annasr صيدلية النصر",
+    "type": "Pharmacy",
+    "latitude": 35.7504079,
+    "longitude": -5.8295296
+  },
+  {
+    "name": "Pharmacie Beni Ouriaghel صيدلية بني ورياغل",
+    "type": "Pharmacy",
+    "latitude": 35.7461918,
+    "longitude": -5.8298527
+  },
+  {
+    "name": "Pharmacie Ahlan صيدلية أهلا",
+    "type": "Pharmacy",
+    "latitude": 35.7475809,
+    "longitude": -5.8404456
+  },
+  {
+    "name": "Pharmacie Erradi صيدلية الراضي",
+    "type": "Pharmacy",
+    "latitude": 35.7486334,
+    "longitude": -5.8376615
+  },
+  {
+    "name": "Pharmacie Bendibane صيدلية بن ديبن",
+    "type": "Pharmacy",
+    "latitude": 35.7559422,
+    "longitude": -5.8209421
+  },
+  {
+    "name": "Pharmacie Al Firdaous صيدلية الفردوس",
+    "type": "Pharmacy",
+    "latitude": 35.7543733,
+    "longitude": -5.8277417
+  },
+  {
+    "name": "Pharmacie Hay Ouarda صيدلية حي الوردة",
+    "type": "Pharmacy",
+    "latitude": 35.7538142,
+    "longitude": -5.818627
+  },
+  {
+    "name": "Pharmacie Madrid صيدلية مدريد",
+    "type": "Pharmacy",
+    "latitude": 35.7527334,
+    "longitude": -5.8220466
+  },
+  {
+    "name": "Pharmacie Ghailane صيدلية غيلان",
+    "type": "Pharmacy",
+    "latitude": 35.7516884,
+    "longitude": -5.8184929
+  },
+  {
+    "name": "Pharmacie Al Mouna صيدلية المنى",
+    "type": "Pharmacy",
+    "latitude": 35.7491823,
+    "longitude": -5.8174646
+  },
+  {
+    "name": "Pharmacie Al Idrissi صيدلية الإدريسي",
+    "type": "Pharmacy",
+    "latitude": 35.7462614,
+    "longitude": -5.8170134
+  },
+  {
+    "name": "Pharmacie Zemzem صيدلية زمزم",
+    "type": "Pharmacy",
+    "latitude": 35.7460004,
+    "longitude": -5.8207251
+  },
+  {
+    "name": "Pharmacie Al Jamae صيدلية الجامع",
+    "type": "Pharmacy",
+    "latitude": 35.7432827,
+    "longitude": -5.82036
+  },
+  {
+    "name": "Pharmacie Ibn Toufail صيدلية بن طفيل",
+    "type": "Pharmacy",
+    "latitude": 35.7450041,
+    "longitude": -5.8233534
+  },
+  {
+    "name": "Pharmacie Bir Chifae صيدلية بير الشفاء",
+    "type": "Pharmacy",
+    "latitude": 35.7428183,
+    "longitude": -5.8259495
+  },
+  {
+    "name": "Pharmacie Avenue Koweït صيدلية شارع الكويت",
+    "type": "Pharmacy",
+    "latitude": 35.7393423,
+    "longitude": -5.8120831
+  },
+  {
+    "name": "Pharmacie Zouitina صيدلية الزويتينة",
+    "type": "Pharmacy",
+    "latitude": 35.732901,
+    "longitude": -5.8116348
+  },
+  {
+    "name": "Pharmacie Andalucia صيدلية الأندلسية",
+    "type": "Pharmacy",
+    "latitude": 35.7312268,
+    "longitude": -5.8070085
+  },
+  {
+    "name": "Pharmacie Imam Ali صيدلية إمام علي",
+    "type": "Pharmacy",
+    "latitude": 35.7294235,
+    "longitude": -5.8124782
+  },
+  {
+    "name": "Pharmacie Al Ouroud Malika صيدلية الورود مليكة",
+    "type": "Pharmacy",
+    "latitude": 35.7264792,
+    "longitude": -5.8093655
+  },
+  {
+    "name": "Pharmacie El Mers صيدلية المرس",
+    "type": "Pharmacy",
+    "latitude": 35.7391683,
+    "longitude": -5.8252248
+  },
+  {
+    "name": "Pharmacie Achennad صيدلية أشناد",
+    "type": "Pharmacy",
+    "latitude": 35.7404209,
+    "longitude": -5.8286718
+  },
+  {
+    "name": "Pharmacie El Hadri صيدلية الحضري",
+    "type": "Pharmacy",
+    "latitude": 35.7360571,
+    "longitude": -5.8306417
+  },
+  {
+    "name": "Pharmacie Bayt Al Makdisse صيدلية بيت المقدس",
+    "type": "Pharmacy",
+    "latitude": 35.7384796,
+    "longitude": -5.8319203
+  },
+  {
+    "name": "Pharmacie Riad Achifaa صيدلية رياض الشفاء",
+    "type": "Pharmacy",
+    "latitude": 35.735227,
+    "longitude": -5.8341992
+  },
+  {
+    "name": "Pharmacie Salama صيدلية السلامة",
+    "type": "Pharmacy",
+    "latitude": 35.7376483,
+    "longitude": -5.8278288
+  },
+  {
+    "name": "Pharmacie Beni Said صيدلية بني سعيد",
+    "type": "Pharmacy",
+    "latitude": 35.7328169,
+    "longitude": -5.8318572
+  },
+  {
+    "name": "Pharmacie Boughlala صيدلية بوغلالة",
+    "type": "Pharmacy",
+    "latitude": 35.7295632,
+    "longitude": -5.8350427
+  },
+  {
+    "name": "Pharmacie Alharrarine صيدلية الحرارين",
+    "type": "Pharmacy",
+    "latitude": 35.7301164,
+    "longitude": -5.8392704
+  },
+  {
+    "name": "Pharmacie El Mesnaoui صيدلية المسناوي",
+    "type": "Pharmacy",
+    "latitude": 35.7348007,
+    "longitude": -5.8274459
+  },
+  {
+    "name": "Pharmacie Bhrayen صيدلية البحريين",
+    "type": "Pharmacy",
+    "latitude": 35.7323353,
+    "longitude": -5.8261185
+  },
+  {
+    "name": "Pharmacie Complexe Al Baraka 1 صيدلية مجمع البركة",
+    "type": "Pharmacy",
+    "latitude": 35.731719,
+    "longitude": -5.8184442
+  },
+  {
+    "name": "Pharmacie Ramses صيدلية رمسيس",
+    "type": "Pharmacy",
+    "latitude": 35.7288515,
+    "longitude": -5.8180304
+  },
+  {
+    "name": "Pharmacie Mikou صيدلية ميكو",
+    "type": "Pharmacy",
+    "latitude": 35.7248815,
+    "longitude": -5.8133417
+  },
+  {
+    "name": "Pharmacie Tanmia صيدلية التنمية",
+    "type": "Pharmacy",
+    "latitude": 35.7374112,
+    "longitude": -5.7657254
+  },
+  {
+    "name": "Pharmacie Rahhali صيدلية الرحالي",
+    "type": "Pharmacy",
+    "latitude": 35.7401384,
+    "longitude": -5.765085
+  },
+  {
+    "name": "Pharmacie Jihane صيدلية جيهان",
+    "type": "Pharmacy",
+    "latitude": 35.7418848,
+    "longitude": -5.7754502
+  },
+  {
+    "name": "Pharmacie Aïn Al Jadida صيدلية عين الجديدة",
+    "type": "Pharmacy",
+    "latitude": 35.7461422,
+    "longitude": -5.7754259
+  },
+  {
+    "name": "Pharmacie M'Ghogha صيدلية مغوغة",
+    "type": "Pharmacy",
+    "latitude": 35.7436011,
+    "longitude": -5.7780437
+  },
+  {
+    "name": "Pharmacie Najah صيدلية النجاح",
+    "type": "Pharmacy",
+    "latitude": 35.7476996,
+    "longitude": -5.7727257
+  },
+  {
+    "name": "Pharmacie Leila صيدلية ليلى",
+    "type": "Pharmacy",
+    "latitude": 35.7482953,
+    "longitude": -5.7778738
+  },
+  {
+    "name": "Pharmacie Ali Atifi صيدلية علي العاطيفي",
+    "type": "Pharmacy",
+    "latitude": 35.7497991,
+    "longitude": -5.7750419
+  },
+  {
+    "name": "Pharmacie Zone Industrielle صيدلية الحي الصناعي",
+    "type": "Pharmacy",
+    "latitude": 35.7456342,
+    "longitude": -5.7826468
+  },
+  {
+    "name": "Pharmacie M'Ghogha Kbira صيدلية مغوغة الكبرى",
+    "type": "Pharmacy",
+    "latitude": 35.7506064,
+    "longitude": -5.7803861
+  },
+  {
+    "name": "Pharmacie Taissir صيدلية التيسير",
+    "type": "Pharmacy",
+    "latitude": 35.7515728,
+    "longitude": -5.7870662
+  },
+  {
+    "name": "Pharmacie Sania Malabata صيدلية السانيا ملابطا",
+    "type": "Pharmacy",
+    "latitude": 35.7779244,
+    "longitude": -5.7542079
+  },
+  {
+    "name": "Pharmacie Akalai صيدلية أكلاعي",
+    "type": "Pharmacy",
+    "latitude": 35.7679127,
+    "longitude": -5.7523456
+  },
+  {
+    "name": "Pharmacie Oued Sania صيدلية واد السانية",
+    "type": "Pharmacy",
+    "latitude": 35.7689272,
+    "longitude": -5.7571945
+  },
+  {
+    "name": "صيدلية عيش",
+    "type": "Pharmacy",
+    "latitude": 35.763499,
+    "longitude": -5.756338
+  },
+  {
+    "name": "Pharmacie Assabr صيدلية الصبر",
+    "type": "Pharmacy",
+    "latitude": 35.7581198,
+    "longitude": -5.7605838
+  },
+  {
+    "name": "صيدلية الرضى",
+    "type": "Pharmacy",
+    "latitude": 35.7624593,
+    "longitude": -5.7625914
+  },
+  {
+    "name": "Pharmacie Ben Ayad صيدلية بن عياد",
+    "type": "Pharmacy",
+    "latitude": 35.7704222,
+    "longitude": -5.7719122
+  },
+  {
+    "name": "Pharmacie Perle de Méditerranée صيدلية لؤلؤة المتوسط",
+    "type": "Pharmacy",
+    "latitude": 35.7673647,
+    "longitude": -5.7610958
+  },
+  {
+    "name": "Pharmacie Ibouyen صيدلية إبويين",
+    "type": "Pharmacy",
+    "latitude": 35.771037,
+    "longitude": -5.7649389
+  },
+  {
+    "name": "Pharmacie Dhar El Mers صيدلية ظهر المرس",
+    "type": "Pharmacy",
+    "latitude": 35.7667996,
+    "longitude": -5.7650737
+  },
+  {
+    "name": "Pharmacie Meftah El Khair صيدلية مفتاح الخير",
+    "type": "Pharmacy",
+    "latitude": 35.7679104,
+    "longitude": -5.7733356
+  },
+  {
+    "name": "Pharmacie Méditerranée صيدلية البحر الابيض المتوسط",
+    "type": "Pharmacy",
+    "latitude": 35.7693844,
+    "longitude": -5.7676644
+  },
+  {
+    "name": "Pharmacie El Ghandouri صيدلية الغاندوري",
+    "type": "Pharmacy",
+    "latitude": 35.7823562,
+    "longitude": -5.7612436
+  },
+  {
+    "name": "Pharmacie Al Issrae صيدلية الإسراء",
+    "type": "Pharmacy",
+    "latitude": 35.7588341,
+    "longitude": -5.7864931
+  },
+  {
+    "name": "Pharmacie Hay Benkirane صيدلية حي بنكيران",
+    "type": "Pharmacy",
+    "latitude": 35.7601988,
+    "longitude": -5.78885
+  },
+  {
+    "name": "صيدلية مسجد الفتح",
+    "type": "Pharmacy",
+    "latitude": 35.7644669,
+    "longitude": -5.7833678
+  },
+  {
+    "name": "Pharmacie El Alia صيدلية العالية",
+    "type": "Pharmacy",
+    "latitude": 35.7636391,
+    "longitude": -5.794075
+  },
+  {
+    "name": "Pharmacie Palestine صيدلية فلسطين",
+    "type": "Pharmacy",
+    "latitude": 35.7640867,
+    "longitude": -5.7909213
+  },
+  {
+    "name": "Pharmacie Saada صيدلية السعادة",
+    "type": "Pharmacy",
+    "latitude": 35.7632332,
+    "longitude": -5.7958386
+  },
+  {
+    "name": "Pharmacie Charf صيدلية شرف",
+    "type": "Pharmacy",
+    "latitude": 35.7664721,
+    "longitude": -5.7940716
+  },
+  {
+    "name": "Pharmacie Jardins Andalous صيدلية حدائق الأندلس",
+    "type": "Pharmacy",
+    "latitude": 35.774374,
+    "longitude": -5.7843316
+  },
+  {
+    "name": "Pharmacie Santé City Center صيدلية الصحة سيتي سنتر",
+    "type": "Pharmacy",
+    "latitude": 35.7706519,
+    "longitude": -5.7823642
+  },
+  {
+    "name": "Pharmacie de la Gare صيدلية محطة القطار",
+    "type": "Pharmacy",
+    "latitude": 35.7713283,
+    "longitude": -5.7858875
+  },
+  {
+    "name": "Pharmacie Laaziza صيدلية العزيزة",
+    "type": "Pharmacy",
+    "latitude": 35.772023,
+    "longitude": -5.7951018
+  },
+  {
+    "name": "Pharmacie Aida صيدلية عايدة",
+    "type": "Pharmacy",
+    "latitude": 35.7753792,
+    "longitude": -5.7952556
+  },
+  {
+    "name": "Pharmacie Al Andalous صيدلية الأندلس",
+    "type": "Pharmacy",
+    "latitude": 35.7757811,
+    "longitude": -5.8015618
+  },
+  {
+    "name": "Pharmacie 2000 صيدلية",
+    "type": "Pharmacy",
+    "latitude": 35.7689607,
+    "longitude": -5.8115506
+  },
+  {
+    "name": "Pharmacie Moulay Youssef صيدلية مولاي يوسف",
+    "type": "Pharmacy",
+    "latitude": 35.7700159,
+    "longitude": -5.8057085
+  },
+  {
+    "name": "Pharmacie Phardet صيدلية فارضت",
+    "type": "Pharmacy",
+    "latitude": 35.7705717,
+    "longitude": -5.8141986
+  },
+  {
+    "name": "Pharmacie Al Amal صيدلية الأمل",
+    "type": "Pharmacy",
+    "latitude": 35.7622384,
+    "longitude": -5.8194224
+  },
+  {
+    "name": "Pharmacie Place du Maroc صيدلية ساحة المغرب",
+    "type": "Pharmacy",
+    "latitude": 35.7657382,
+    "longitude": -5.8163376
+  },
+  {
+    "name": "Avenue Youssef Ibn Tachfine شارع يوسف بن تاشفين",
+    "type": "Pharmacy",
+    "latitude": 35.7710518,
+    "longitude": -5.8031016
+  },
+  {
+    "name": "Pharmacie Jade صيدلية جاد",
+    "type": "Pharmacy",
+    "latitude": 35.772407,
+    "longitude": -5.8053327
+  },
+  {
+    "name": "Pharmacie Al Farabi صيدلية الفرابي",
+    "type": "Pharmacy",
+    "latitude": 35.7723097,
+    "longitude": -5.8076621
+  },
+  {
+    "name": "Pharmacie La Wilaya صيدلية الولاية",
+    "type": "Pharmacy",
+    "latitude": 35.7725945,
+    "longitude": -5.8113934
+  },
+  {
+    "name": "Pharmacie Ariha صيدلية أريحا",
+    "type": "Pharmacy",
+    "latitude": 35.771005,
+    "longitude": -5.8113856
+  },
+  {
+    "name": "Pharmacie Jamila صيدلية جميلة",
+    "type": "Pharmacy",
+    "latitude": 35.7729531,
+    "longitude": -5.8138968
+  },
+  {
+    "name": "Pharmacie Granada صيدلية غرناطة",
+    "type": "Pharmacy",
+    "latitude": 35.7760393,
+    "longitude": -5.8080033
+  },
+  {
+    "name": "Grande Pharmacie Zeroual صيدلية زروال الكبرى",
+    "type": "Pharmacy",
+    "latitude": 35.7760357,
+    "longitude": -5.8140097
+  },
+  {
+    "name": "Pharmacie du Lycée صيدلية الليسي",
+    "type": "Pharmacy",
+    "latitude": 35.7781229,
+    "longitude": -5.8096733
+  },
+  {
+    "name": "Grande Pharmacie Pasteur الصيدلية الكبرى باستور",
+    "type": "Pharmacy",
+    "latitude": 35.7810778,
+    "longitude": -5.8123201
+  },
+  {
+    "name": "Pharmacie Centrale الصيدلية المركزية",
+    "type": "Pharmacy",
+    "latitude": 35.780116,
+    "longitude": -5.8100992
+  },
+  {
+    "name": "Pharmacie de Paris صيدلية باريس",
+    "type": "Pharmacy",
+    "latitude": 35.78087,
+    "longitude": -5.8122742
+  },
+  {
+    "name": "Pharmacie Ibn Rochd صيدلية بن رشد",
+    "type": "Pharmacy",
+    "latitude": 35.778412,
+    "longitude": -5.8191224
+  },
+  {
+    "name": "Pharmacie M'sallah صيدلية المصلى",
+    "type": "Pharmacy",
+    "latitude": 35.7743237,
+    "longitude": -5.8175644
+  },
+  {
+    "name": "Pharmacie Ibn khatib صيدلية ابن الخطيب",
+    "type": "Pharmacy",
+    "latitude": 35.7753514,
+    "longitude": -5.8201833
+  },
+  {
+    "name": "Pharmacie El Kindy صيدلية الكندي",
+    "type": "Pharmacy",
+    "latitude": 35.7730008,
+    "longitude": -5.8218784
+  },
+  {
+    "name": "Pharmacie Val Fleuri صيدلية فال فلوري",
+    "type": "Pharmacy",
+    "latitude": 35.7769023,
+    "longitude": -5.8283848
+  },
+  {
+    "name": "Pharmacie Bel Air صيدلية بيلير",
+    "type": "Pharmacy",
+    "latitude": 35.774169,
+    "longitude": -5.8261136
+  },
+  {
+    "name": "Pharmacie Chifae صيدلية الشفاء",
+    "type": "Pharmacy",
+    "latitude": 35.7789399,
+    "longitude": -5.825752
+  },
+  {
+    "name": "Pharmacie Souk El Bakar صيدلية سوق البقر",
+    "type": "Pharmacy",
+    "latitude": 35.7790739,
+    "longitude": -5.8308461
+  },
+  {
+    "name": "Pharmacie Mister Khouch صيدلية مستر خوش",
+    "type": "Pharmacy",
+    "latitude": 35.7738241,
+    "longitude": -5.8327767
+  },
+  {
+    "name": "Pharmacie Camelia صيدلية كاميليا",
+    "type": "Pharmacy",
+    "latitude": 35.7730293,
+    "longitude": -5.8296408
+  },
+  {
+    "name": "Pharmacie Al Imam Malik صيدلية إمام مالك",
+    "type": "Pharmacy",
+    "latitude": 35.7621172,
+    "longitude": -5.8222234
+  },
+  {
+    "name": "Pharmacie Rabea El Adaouia صيدلية رابعة العدوية",
+    "type": "Pharmacy",
+    "latitude": 35.7652763,
+    "longitude": -5.824776
+  },
+  {
+    "name": "Pharmacie Casabarata صيدلية كازاباراتا",
+    "type": "Pharmacy",
+    "latitude": 35.767018,
+    "longitude": -5.8213004
+  },
+  {
+    "name": "Pharmacie Anfa صيدلية أنفا",
+    "type": "Pharmacy",
+    "latitude": 35.7689049,
+    "longitude": -5.8171629
+  },
+  {
+    "name": "Pharmacie Al Ghazali صيدلية الغزالي",
+    "type": "Pharmacy",
+    "latitude": 35.7697558,
+    "longitude": -5.8211379
+  },
+  {
+    "name": "Grande Pharmacie Souani صيدلية السواني الكبرى",
+    "type": "Pharmacy",
+    "latitude": 35.7701548,
+    "longitude": -5.8242214
+  },
+  {
+    "name": "Pharmacie Populaire الصيدلية الشعبية",
+    "type": "Pharmacy",
+    "latitude": 35.7682205,
+    "longitude": -5.8249103
+  },
+  {
+    "name": "Grande Pharmacie Branes صيدلية برانص الكبرى",
+    "type": "Pharmacy",
+    "latitude": 35.7628519,
+    "longitude": -5.8249922
+  },
+  {
+    "name": "Pharmacie Abi Abass Sebti صيدلية العباس السبتي",
+    "type": "Pharmacy",
+    "latitude": 35.7675312,
+    "longitude": -5.828763
+  },
+  {
+    "name": "Pharmacie Inas صيدلية إيناس",
+    "type": "Pharmacy",
+    "latitude": 35.7599922,
+    "longitude": -5.830995
+  },
+  {
+    "name": "Pharmacie Ibn Batouta صيدلية ابن بطوطة",
+    "type": "Pharmacy",
+    "latitude": 35.7628179,
+    "longitude": -5.8320191
+  },
+  {
+    "name": "Pharmacie Ibn Barrajan صيدلية ابن برجان",
+    "type": "Pharmacy",
+    "latitude": 35.7577169,
+    "longitude": -5.8329304
+  },
+  {
+    "name": "Pharmacie Atlas صيدلية أطلس",
+    "type": "Pharmacy",
+    "latitude": 35.7650926,
+    "longitude": -5.8279345
+  },
+  {
+    "name": "Pharmacie Sanawbar صيدلية الصنوبر",
+    "type": "Pharmacy",
+    "latitude": 35.7574911,
+    "longitude": -5.8369439
+  },
+  {
+    "name": "Pharmacie Al Yasmine صيدلية الياسمين",
+    "type": "Pharmacy",
+    "latitude": 35.7571792,
+    "longitude": -5.8404784
+  },
+  {
+    "name": "Pharmacie Narjiss صيدلية نرجيس",
+    "type": "Pharmacy",
+    "latitude": 35.7556071,
+    "longitude": -5.8344612
+  },
+  {
+    "name": "Pharmacie Salaheddine صيدلية صلاح الدين",
+    "type": "Pharmacy",
+    "latitude": 35.7544787,
+    "longitude": -5.8376607
+  },
+  {
+    "name": "Pharmacie Fayna صيدلية فاينة",
+    "type": "Pharmacy",
+    "latitude": 35.7607275,
+    "longitude": -5.8396831
+  },
+  {
+    "name": "Pharmacie Abbes صيدلية عباس",
+    "type": "Pharmacy",
+    "latitude": 35.7562288,
+    "longitude": -5.8440432
+  },
+  {
+    "name": "Pharmacie Arrabie صيدلية الربيع",
+    "type": "Pharmacy",
+    "latitude": 35.7537398,
+    "longitude": -5.8454633
+  },
+  {
+    "name": "Pharmacie Principale الصيدلية الرئيسية",
+    "type": "Pharmacy",
+    "latitude": 35.7539306,
+    "longitude": -5.8416408
+  },
+  {
+    "name": "Pharmacie Al Masjid صيدلية المسجد",
+    "type": "Pharmacy",
+    "latitude": 35.7520833,
+    "longitude": -5.8368547
+  },
+  {
+    "name": "Pharmacie Moncef صيدلية منصف",
+    "type": "Pharmacy",
+    "latitude": 35.7505782,
+    "longitude": -5.8389402
+  },
+  {
+    "name": "Pharmacie Al Balsam صيدلية البلسم",
+    "type": "Pharmacy",
+    "latitude": 35.7509305,
+    "longitude": -5.842056
+  },
+  {
+    "name": "Pharmacie Ibrahim Al Khalil صيدلية إبراهيم الخليل",
+    "type": "Pharmacy",
+    "latitude": 35.7461654,
+    "longitude": -5.8509652
+  },
+  {
+    "name": "Pharmacie 6 Novembre صيدلية 6 نونبر",
+    "type": "Pharmacy",
+    "latitude": 35.7453486,
+    "longitude": -5.8476183
+  },
+  {
+    "name": "Pharmacie Marjane Tanger صيدلية مرجان طنجة",
+    "type": "Pharmacy",
+    "latitude": 35.7464496,
+    "longitude": -5.8440326
+  },
+  {
+    "name": "Pharmacie Jnan Marjane صيدلية جنان مرجان",
+    "type": "Pharmacy",
+    "latitude": 35.7478223,
+    "longitude": -5.8459313
+  },
+  {
+    "name": "Pharmacie Fleming صيدلية فلمينغ",
+    "type": "Pharmacy",
+    "latitude": 35.7445151,
+    "longitude": -5.8549137
+  },
+  {
+    "name": "Pharmacie Chorafa صيدلية الشرفاء",
+    "type": "Pharmacy",
+    "latitude": 35.7475556,
+    "longitude": -5.8589924
+  },
+  {
+    "name": "Pharmacie Al Bayrouni صيدلية البيروني",
+    "type": "Pharmacy",
+    "latitude": 35.7514966,
+    "longitude": -5.8479752
+  },
+  {
+    "name": "Pharmacie Tanja Al Koubra صيدلية طنجة الكبرى",
+    "type": "Pharmacy",
+    "latitude": 35.7525128,
+    "longitude": -5.8522603
+  },
+  {
+    "name": "Pharmacie San Francisco صيدلية سان فرانسيسكو",
+    "type": "Pharmacy",
+    "latitude": 35.7807498,
+    "longitude": -5.8240771
+  },
+  {
+    "name": "Pharmacie Aïn Hayani صيدلية عين الحياني",
+    "type": "Pharmacy",
+    "latitude": 35.7828892,
+    "longitude": -5.8282247
+  },
+  {
+    "name": "Pharmacie Imam Mouslim صيدلية إمام مسلم",
+    "type": "Pharmacy",
+    "latitude": 35.7854093,
+    "longitude": -5.8293717
+  },
+  {
+    "name": "Pharmacie Arrazi صيدلية الرازي",
+    "type": "Pharmacy",
+    "latitude": 35.7637104,
+    "longitude": -5.8378925
+  },
+  {
+    "name": "Pharmacie Annajat صيدلية النجاة",
+    "type": "Pharmacy",
+    "latitude": 35.7699613,
+    "longitude": -5.831943
+  },
+  {
+    "name": "Pharmacie Sat Filage صيدلية سات فيلاج",
+    "type": "Pharmacy",
+    "latitude": 35.7597607,
+    "longitude": -5.8432866
+  },
+  {
+    "name": "Pharmacie Tarik El Moujahidin صيدلية طريق المجاهدين",
+    "type": "Pharmacy",
+    "latitude": 35.7699893,
+    "longitude": -5.8437546
+  },
+  {
+    "name": "Pharmacie la Raison صيدلية النهى",
+    "type": "Pharmacy",
+    "latitude": 35.7671804,
+    "longitude": -5.8448185
+  },
+  {
+    "name": "Pharmacie Al Ihssane صيدلية الإحسان",
+    "type": "Pharmacy",
+    "latitude": 35.7577533,
+    "longitude": -5.8527663
+  },
+  {
+    "name": "Pharmacie Imam Chadili صيدلية إمام الشاذلي",
+    "type": "Pharmacy",
+    "latitude": 35.7558529,
+    "longitude": -5.8503253
+  },
+  {
+    "name": "Pharmacie les Parents صيدلية الأبوين",
+    "type": "Pharmacy",
+    "latitude": 35.7578878,
+    "longitude": -5.8468026
+  },
+  {
+    "name": "Pharmacie Hay Al Manar صيدلية حي المنار",
+    "type": "Pharmacy",
+    "latitude": 35.75959,
+    "longitude": -5.8495551
+  },
+  {
+    "name": "Pharmacie Al Madina صيدلية المدينة",
+    "type": "Pharmacy",
+    "latitude": 35.7673499,
+    "longitude": -5.8528705
+  },
+  {
+    "name": "Pharmacie Mehdia Golf صيدلية مهدية كولف",
+    "type": "Pharmacy",
+    "latitude": 35.7640801,
+    "longitude": -5.8518522
+  },
+  {
+    "name": "Pharmacie Soussia صيدلية سوسية",
+    "type": "Pharmacy",
+    "latitude": 35.7618138,
+    "longitude": -5.8535855
+  },
+  {
+    "name": "Pharmacie Al Kawacim صيدلية القواسم",
+    "type": "Pharmacy",
+    "latitude": 35.7651065,
+    "longitude": -5.8554297
+  },
+  {
+    "name": "Pharmacie Chair صيدلية الشاعر",
+    "type": "Pharmacy",
+    "latitude": 35.7626331,
+    "longitude": -5.8448568
+  },
+  {
+    "name": "Pharmacie Masjid Al Mouhit صيدلية مسجد المحيط",
+    "type": "Pharmacy",
+    "latitude": 35.7621074,
+    "longitude": -5.8485761
+  },
+  {
+    "name": "Pharmacie Bouarraquia صيدلية بوعراقية",
+    "type": "Pharmacy",
+    "latitude": 35.7825789,
+    "longitude": -5.8179886
+  },
+  {
+    "name": "Pharmacie Khosafat صيدلية خوصافات",
+    "type": "Pharmacy",
+    "latitude": 35.7857958,
+    "longitude": -5.8161579
+  },
+  {
+    "name": "Pharmacie Ibn Sina صيدلية ابن سينا",
+    "type": "Pharmacy",
+    "latitude": 35.7866173,
+    "longitude": -5.820818
+  },
+  {
+    "name": "Pharmacie Brooks صيدلية بروكس",
+    "type": "Pharmacy",
+    "latitude": 35.7839198,
+    "longitude": -5.8214788
+  },
+  {
+    "name": "Pharmacie Tingis صيدلية طنجيس",
+    "type": "Pharmacy",
+    "latitude": 35.7855828,
+    "longitude": -5.8255958
+  },
+  {
+    "name": "Pharmacie Dina صيدلية دينا",
+    "type": "Pharmacy",
+    "latitude": 35.7860886,
+    "longitude": -5.833369
+  },
+  {
+    "name": "Pharmacie Masjid Marchan صيدلية مسجد مرشان",
+    "type": "Pharmacy",
+    "latitude": 35.7899845,
+    "longitude": -5.8267794
+  },
+  {
+    "name": "Pharmacie Lamtafi صيدلية لمطافي",
+    "type": "Pharmacy",
+    "latitude": 35.78827,
+    "longitude": -5.824861
+  },
+  {
+    "name": "Pharmacie Sabila Jmaa صيدلية سبيلة الجماعة",
+    "type": "Pharmacy",
+    "latitude": 35.7884394,
+    "longitude": -5.8293661
+  },
+  {
+    "name": "Pharmacie du Golf صيدلية الكولف",
+    "type": "Pharmacy",
+    "latitude": 35.775918,
+    "longitude": -5.8548297
+  },
+  {
+    "name": "Pharmacie Biladi صيدلية بلادي",
+    "type": "Pharmacy",
+    "latitude": 35.7672315,
+    "longitude": -5.8480077
+  },
+  {
+    "name": "Pharmacie Al Moujahidine صيدلية المجاهدين",
+    "type": "Pharmacy",
+    "latitude": 35.777783,
+    "longitude": -5.836847
+  },
+  {
+    "name": "Pharmacie Al Amana صيدلية الأمانة",
+    "type": "Pharmacy",
+    "latitude": 35.7340065,
+    "longitude": -5.8765255
+  },
+  {
+    "name": "Pharmacie Laaouini Ziaten صيدلية لعويني زياتن",
+    "type": "Pharmacy",
+    "latitude": 35.7445149,
+    "longitude": -5.8753381
+  },
+  {
+    "name": "Pharmacie Moustaghfir صيدلية مستغفر",
+    "type": "Pharmacy",
+    "latitude": 35.7449201,
+    "longitude": -5.8668848
+  },
+  {
+    "name": "Pharmacie Hay Al Inara صيدلية حي الإنارة",
+    "type": "Pharmacy",
+    "latitude": 35.7511089,
+    "longitude": -5.862102
+  },
+  {
+    "name": "Pharmacie Branes Kedima صيدلية البرانص القديمة",
+    "type": "Pharmacy",
+    "latitude": 35.7451901,
+    "longitude": -5.8698033
+  },
+  {
+    "name": "Pharmacie Safae صيدلية صفاء",
+    "type": "Pharmacy",
+    "latitude": 35.7463176,
+    "longitude": -5.8685989
+  },
+  {
+    "name": "Pharmacie Jebari صيدلية جباري",
+    "type": "Pharmacy",
+    "latitude": 35.7521693,
+    "longitude": -5.8662906
+  },
+  {
+    "name": "Pharmacie Al Fajr صيدلية الفجر",
+    "type": "Pharmacy",
+    "latitude": 35.7521548,
+    "longitude": -5.8593719
+  },
+  {
+    "name": "Pharmacie Massira صيدلية المسيرة",
+    "type": "Pharmacy",
+    "latitude": 35.7538793,
+    "longitude": -5.8623402
+  },
+  {
+    "name": "Pharmacie Omar Ibn Khattab صيدلية عمر بن الخطاب",
+    "type": "Pharmacy",
+    "latitude": 35.7586635,
+    "longitude": -5.8592846
+  },
+  {
+    "name": "Pharmacie Riad صيدلية رياض",
+    "type": "Pharmacy",
+    "latitude": 35.7585043,
+    "longitude": -5.8562332
+  },
+  {
+    "name": "Pharmacie Sofia صيدلية صوفيا",
+    "type": "Pharmacy",
+    "latitude": 35.7611902,
+    "longitude": -5.8579653
+  },
+  {
+    "name": "Pharmacie Assafwa صيدلية الصفوة",
+    "type": "Pharmacy",
+    "latitude": 35.7658498,
+    "longitude": -5.8587418
+  },
+  {
+    "name": "Pharmacie Ataallah صيدلية عطاء الله",
+    "type": "Pharmacy",
+    "latitude": 35.7684604,
+    "longitude": -5.8626016
+  },
+  {
+    "name": "Pharmacie Ouahid صيدلية وحيد",
+    "type": "Pharmacy",
+    "latitude": 35.75654,
+    "longitude": -5.8558273
+  },
+  {
+    "name": "Pharmacie Hadia صيدلية هادية",
+    "type": "Pharmacy",
+    "latitude": 35.7628826,
+    "longitude": -5.8607103
+  },
+  {
+    "name": "Pharmacie Mesnana صيدلية مسنانة",
+    "type": "Pharmacy",
+    "latitude": 35.7547239,
+    "longitude": -5.854767
+  },
+  {
+    "name": "Pharmacie Al Boustane صيدلية البستان",
+    "type": "Pharmacy",
+    "latitude": 35.7765719,
+    "longitude": -5.8611405
+  },
+  {
+    "name": "Pharmacie Boubana صيدلية بوبانة",
+    "type": "Pharmacy",
+    "latitude": 35.7716019,
+    "longitude": -5.8606245
+  },
+  {
+    "name": "Pharmacie Arrahman صيدلية الرحمان",
+    "type": "Pharmacy",
+    "latitude": 35.7740954,
+    "longitude": -5.8638288
+  },
+  {
+    "name": "Pharmacie Banafsaj صيدلية البنفسج",
+    "type": "Pharmacy",
+    "latitude": 35.7875254,
+    "longitude": -5.8352893
+  },
+  {
+    "name": "Pharmacie Jamaâ Mekraa صيدلية جامع مقراع",
+    "type": "Pharmacy",
+    "latitude": 35.7864143,
+    "longitude": -5.8433979
+  },
+  {
+    "name": "Pharmacie Al Boughaz صيدلية البوغاز",
+    "type": "Pharmacy",
+    "latitude": 35.7799508,
+    "longitude": -5.81575
+  },
+  {
+    "name": "Pharmacie Al Azhar صيدلية الأزهر",
+    "type": "Pharmacy",
+    "latitude": 35.7550766,
+    "longitude": -5.8244489
+  },
+  {
+    "name": "Pharmacie Bismillah صيدلية بسم الله",
+    "type": "Pharmacy",
+    "latitude": 35.7717161,
+    "longitude": -5.7993335
+  },
+  {
+    "name": "Pharmacie California صيدلية كليفورنيا",
+    "type": "Pharmacy",
+    "latitude": 35.7816672,
+    "longitude": -5.8423394
+  },
+  {
+    "name": "Pharmacie El Houda صيدلية الهدى",
+    "type": "Pharmacy",
+    "latitude": 35.7711507,
+    "longitude": -5.8232056
+  },
+  {
+    "name": "Pharmacie Tarik Ben Ziad صيدلية طارق بن زياد",
+    "type": "Pharmacy",
+    "latitude": 35.7772935,
+    "longitude": -5.8049326
+  },
+  {
+    "name": "Pharmacie Imam Nafie صيدلية الإمام نافع",
+    "type": "Pharmacy",
+    "latitude": 35.7489299,
+    "longitude": -5.8055346
+  },
+  {
+    "name": "Pharmacie les Palmiers صيدلية النخيل",
+    "type": "Pharmacy",
+    "latitude": 35.780345,
+    "longitude": -5.8055711
+  },
+  {
+    "name": "Pharmacie Khalil صيدلية خليل",
+    "type": "Pharmacy",
+    "latitude": 35.7500235,
+    "longitude": -5.8337293
+  },
+  {
+    "name": "Pharmacie Lalla Chafia صيدلية لالة شافية",
+    "type": "Pharmacy",
+    "latitude": 35.7714855,
+    "longitude": -5.8172455
+  },
+  {
+    "name": "Pharmacie Mabrouki صيدلية مبروكي",
+    "type": "Pharmacy",
+    "latitude": 35.7538772,
+    "longitude": -5.813321
+  },
+  {
+    "name": "Pharmacie Marché de Gros Aouama صيدلية سوق الجملة",
+    "type": "Pharmacy",
+    "latitude": 35.749872,
+    "longitude": -5.7943847
+  },
+  {
+    "name": "Pharmacie Ouahabi صيدلية الوهابي",
+    "type": "Pharmacy",
+    "latitude": 35.7813974,
+    "longitude": -5.8465746
+  },
+  {
+    "name": "Pharmacie Souk M'Sallah صيدلية سوق المصلى",
+    "type": "Pharmacy",
+    "latitude": 35.7578434,
+    "longitude": -5.8120675
+  },
+  {
+    "name": "Grande Pharmacie Malabata صيدلية ملاباطا الكبرى",
+    "type": "Pharmacy",
+    "latitude": 35.7757341,
+    "longitude": -5.7770016
+  },
+  {
+    "name": "Pharmacie Al Khair صيدلية الخير",
+    "type": "Pharmacy",
+    "latitude": 35.7498628,
+    "longitude": -5.82063
+  },
+  {
+    "name": "Pharmacie Tufarma",
+    "type": "Pharmacy",
+    "latitude": 35.7348371,
+    "longitude": -5.8897012
+  },
+  {
+    "name": "صيدلية قلب طنجة",
+    "type": "Pharmacy",
+    "latitude": 35.7599924,
+    "longitude": -5.7518517
+  },
+  {
+    "name": "Laboratoire d'Analyses Médicales",
+    "type": "Laboratoire",
+    "latitude": 35.7725658,
+    "longitude": -5.7700796
+  },
+  {
+    "name": "Moun Para",
+    "type": "Pharmacy",
+    "latitude": 35.7725077,
+    "longitude": -5.7704981
+  },
+  {
+    "name": "Centre dentaire El ktam",
+    "type": "Dentiste",
+    "latitude": 35.7663753,
+    "longitude": -5.7641736
+  },
+  {
+    "name": "صيدلية نوران",
+    "type": "Pharmacy",
+    "latitude": 35.760232,
+    "longitude": -5.7579693
+  },
+  {
+    "name": "صيدلية أريماس",
+    "type": "Pharmacy",
+    "latitude": 35.7643529,
+    "longitude": -5.7599345
+  },
+  {
+    "name": "صيدلية الشجيرات",
+    "type": "Pharmacy",
+    "latitude": 35.7655849,
+    "longitude": -5.7491404
+  },
+  {
+    "name": "صيدلية بوتور",
+    "type": "Pharmacy",
+    "latitude": 35.7636627,
+    "longitude": -5.7697656
+  },
+  {
+    "name": "APEX Dental Clinic",
+    "type": "Hôpital",
+    "latitude": 35.7757254,
+    "longitude": -5.8046245
+  },
+  {
+    "name": "Pharmacie Kasbah",
+    "type": "Pharmacy",
+    "latitude": 35.788309,
+    "longitude": -5.8153101
+  },
+  {
+    "name": "Hôpital Mohammed V",
+    "type": "Hôpital",
+    "latitude": 35.7781906,
+    "longitude": -5.8282592
+  },
+  {
+    "name": "hôpital al kortobi",
+    "type": "Hôpital",
+    "latitude": 35.7894876,
+    "longitude": -5.8183982
+  },
+  {
+    "name": "Clinique Bennis مصحة بنيس",
+    "type": "Clinic",
+    "latitude": 35.7654364,
+    "longitude": -5.7979814
+  },
+  {
+    "name": "Hôpital Mohammed VI",
+    "type": "Hôpital",
+    "latitude": 35.7509724,
+    "longitude": -5.8283569
+  },
+  {
+    "name": "Polyclinique CNSS",
+    "type": "Hôpital",
+    "latitude": 35.7753803,
+    "longitude": -5.770132
+  },
+  {
+    "name": "Hôpital Espagnol",
+    "type": "Hôpital",
+    "latitude": 35.7782078,
+    "longitude": -5.8225022
+  },
+  {
+    "name": "Laboratoire D'Analyses Médicales de Tanger",
+    "type": "Clinique",
+    "latitude": 35.7761802,
+    "longitude": -5.8063461
+  },
+  {
+    "name": "Unnamed Facility",
+    "type": "Pharmacy",
+    "latitude": 35.7644376,
+    "longitude": -5.7833772
+  },
+  {
+    "name": "Cabinet Medical",
+    "type": "Cabinet Médical",
+    "latitude": 35.7402262,
+    "longitude": -5.8055707
+  },
+  {
+    "name": "Medecin",
+    "type": "Cabinet Médical",
+    "latitude": 35.750779,
+    "longitude": -5.8295211
+  },
+  {
+    "name": "Medecin",
+    "type": "Cabinet Médical",
+    "latitude": 35.7473475,
+    "longitude": -5.8288758
+  },
+  {
+    "name": "Pharmacie Maha صيدلية مها",
+    "type": "Pharmacy",
+    "latitude": 35.7363161,
+    "longitude": -5.8218884
+  },
+  {
+    "name": "Clinique Sidi Amar",
+    "type": "Clinique",
+    "latitude": 35.7792464,
+    "longitude": -5.8310481
+  },
+  {
+    "name": "Cabinets de Pédiatrie",
+    "type": "Clinique",
+    "latitude": 35.7761171,
+    "longitude": -5.8373073
+  },
+  {
+    "name": "Clinique Achifaa",
+    "type": "Cabinet Médical",
+    "latitude": 35.7448383,
+    "longitude": -5.8303612
+  },
+  {
+    "name": "Clinique Assalam",
+    "type": "Clinique",
+    "latitude": 35.7699061,
+    "longitude": -5.8095036
+  },
+  {
+    "name": "Hopital Italien المستشفى الإيطالي",
+    "type": "Hôpital",
+    "latitude": 35.7845305,
+    "longitude": -5.8212436
+  },
+  {
+    "name": "Croissant Rouge",
+    "type": "Hôpital",
+    "latitude": 35.7777167,
+    "longitude": -5.8100344
+  },
+  {
+    "name": "Clinique Val Fleuri",
+    "type": "Clinique",
+    "latitude": 35.7775687,
+    "longitude": -5.8270735
+  },
+  {
+    "name": "Clinique de cité universitaire",
+    "type": "Clinique",
+    "latitude": 35.7363079,
+    "longitude": -5.8921432
+  },
+  {
+    "name": "Pharmacie Badriouene",
+    "type": "Pharmacy",
+    "latitude": 35.7091808,
+    "longitude": -5.8782868
+  },
+  {
+    "name": "International Clinic of Tangier",
+    "type": "Hôpital",
+    "latitude": 35.7715937,
+    "longitude": -5.7853316
+  },
+  {
+    "name": "pharmacie benkiran",
+    "type": "Pharmacy",
+    "latitude": 35.7603695,
+    "longitude": -5.7884321
+  },
+  {
+    "name": "Unnamed Facility",
+    "type": "Hôpital",
+    "latitude": 35.7444797,
+    "longitude": -5.8618785
+  }
+]

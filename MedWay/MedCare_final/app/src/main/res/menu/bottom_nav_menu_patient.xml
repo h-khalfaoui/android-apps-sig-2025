@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_map"
+        android:enabled="true"
+        android:icon="@drawable/ic_map_location"
+        android:title="Carte" />
+
+    <item
+        android:id="@+id/nav_medical_dossier"
+        android:enabled="true"
+        android:icon="@drawable/dossier"
+        android:title="Dossier Médical" />
+
+    <item
+        android:id="@+id/nav_book_appointment"
+        android:enabled="true"
+        android:icon="@drawable/appointment_book"
+        android:title="Prendre RDV" />
+
+
+    <item
+        android:id="@+id/nav_chatbot"
+        android:enabled="true"
+        android:icon="@drawable/chat"
+        android:title="Assistant"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:enabled="true"
+        android:icon="@drawable/person"
+        android:title="Profile" />
+
+
+</menu>

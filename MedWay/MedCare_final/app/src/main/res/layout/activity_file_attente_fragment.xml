@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Image de fond -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgr1"
+        android:contentDescription="Image de fond"
+        android:alpha="0.9" />
+
+    <!-- Contenu avec ScrollView au-dessus -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:fillViewport="true"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- CardView pour formulaire de file d'attente -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="20dp"
+                card_view:cardElevation="10dp"
+                android:layout_marginBottom="24dp"
+                android:background="#FFFFFF"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ajouter un Client à la File"
+                        android:textAlignment="center"
+                        android:textSize="22sp"
+                        android:textColor="#E53935"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Établissement :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <Spinner
+                        android:id="@+id/spinner_etab_file"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:layout_marginBottom="12dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nom du Client :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_nom_client"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Entrer le Nom"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:padding="12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prénom du Client :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_prenom_client"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Entrer le Prénom"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:padding="12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Heure d'Arrivée :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_heure_arrivee"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Ex: 10:30"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:padding="12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Motif de la Visite :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_motif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Entrer le Motif"
+                        android:layout_marginBottom="12dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:padding="12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Statut :"
+                        android:textColor="#1E3A8A"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:id="@+id/input_statut"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="En attente, Pris en charge..."
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/rounded_edittext"
+                        android:padding="12dp"/>
+
+                    <Button
+                        android:id="@+id/btn_ajouter_client"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ajouter à la File"
+                        android:textStyle="bold"
+                        android:padding="12dp"
+                        android:textColor="@android:color/white"
+                        android:backgroundTint="#E53935"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Liste des clients dans la file -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="File d'Attente"
+                android:textSize="18sp"
+                android:textColor="#E53935"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:id="@+id/liste_file_attente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <!-- Loader -->
+            <ProgressBar
+                android:id="@+id/loading_indicator_file"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
