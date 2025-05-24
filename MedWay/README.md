@@ -10,4 +10,4 @@ It aims to provide users with convenient access to essential medical features an
 - **EL OUALI Taha**
 
 ### Supervision
-Supervised by **Mrs. Khalfaoui Hafida**
+Supervised by **Ms. Khalfaoui Hafida**
