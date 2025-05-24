@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Établissement -->
+    <item
+        android:id="@+id/nav_etablissement"
+        android:title=""
+        android:icon="@drawable/hospital"
+        app:iconTint="@color/nav_icon_selector" />
+
+    <!-- Disponibilité -->
+    <item
+        android:id="@+id/nav_disponibilite"
+        android:title=""
+        android:icon="@drawable/calendar"
+        app:iconTint="@color/nav_icon_selector" />
+
+    <!-- File d'attente -->
+    <item
+        android:id="@+id/nav_file"
+        android:title=""
+        android:icon="@drawable/queue"
+        app:iconTint="@color/nav_icon_selector" />
+
+    <!-- Chatbot -->
+    <item
+        android:id="@+id/nav_chatbot"
+        android:title=""
+        android:icon="@drawable/chatbot"
+        app:iconTint="@color/nav_icon_selector" />
+
+    <!-- Profil -->
+    <item
+        android:id="@+id/nav_profile"
+        android:title=""
+        android:icon="@drawable/person"
+        app:iconTint="@color/nav_icon_selector" />
+
+</menu>

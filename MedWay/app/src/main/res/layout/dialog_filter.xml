@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance Maximale (KM) :"
+        android:textStyle="bold"
+        android:textColor="#1E293B"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerDistance"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_spinner"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type d’Établissement :"
+        android:textStyle="bold"
+        android:textColor="#1E293B"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/bg_spinner"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+</LinearLayout>

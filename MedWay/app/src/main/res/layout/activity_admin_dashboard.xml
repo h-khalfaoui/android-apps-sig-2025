@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr1"
+    tools:context=".admin.AdminDashboardActivity">
+
+    <!-- AppBar inchangé -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1E3A8A"
+        android:elevation="4dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#1E3A8A"
+            app:titleTextColor="@android:color/white">
+
+            <!-- Contenu de la toolbar inchangé -->
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/logo2"
+                android:contentDescription="@string/app_name"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tableau de Bord Admin"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <!-- Carte modifiée avec titre -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+
+                <!-- Nouveau titre dans la carte -->
+                <TextView
+                    android:id="@+id/textViewRequestsTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Demandes d'Inscription"
+                    android:textAlignment="center"
+                    android:textColor="#1E3A8A"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <!-- RecyclerView avec contrainte au titre -->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewPendingUsers"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:clipToPadding="false"
+                    android:padding="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textViewRequestsTitle"
+                    tools:listitem="@layout/item_pending_user" />
+
+                <!-- Éléments existants -->
+                <TextView
+                    android:id="@+id/textViewNoPending"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_pending_verifications"
+                    android:textColor="#1E3A8A"
+                    android:textSize="16sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textViewRequestsTitle" />
+
+                <ProgressBar
+                    android:id="@+id/progressBarAdmin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:indeterminateTint="#E21836"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/textViewRequestsTitle" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Bouton flottant inchangé -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:src="@drawable/refresh"
+            app:backgroundTint="#1E3A8A"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:tint="@android:color/white" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

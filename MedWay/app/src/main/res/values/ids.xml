@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="backArrowSignIn" type="id" />
+    <item name="item_etab_patient_address" type="id" />
+    <item name="item_etab_patient_type" type="id" />
+    <item name="item_etab_patient_name" type="id" />
+</resources>

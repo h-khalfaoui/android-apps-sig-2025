@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name"><b>MedWay</b></string>
+    <string name="action_settings">Paramétres</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Suivant</string>
+    <string name="previous">Précédent</string>
+    <!-- Sign In/Up General -->
+    <string name="sign_in">SE CONNECTER</string>
+    <string name="sign_up">S\'INSCRIRE</string>
+    <string name="log_out">SE DÉCONNECTER</string>
+    <string name="back">Retour</string>
+    <string name="enter_your_email">Entrez Votre Email</string>
+    <string name="enter_your_password">Entrez Votre Mot de Passe</string>
+    <string name="forgot_password">Mot de Passe Oublié ?</string>
+    <string name="don_t_have_an_account_space">Vous N\'avez Pas de Compte ?</string>
+
+    <!-- Professional Sign Up Specific -->
+    <string name="professional_sign_up">Inscription Professionnel</string>
+    <string name="enter_your_name">Entrez Votre Nom</string>
+    <string name="license_number">Entrez Votre Numéro de Licence</string>
+    <string name="specialty">Entrez Votre Spécialité</string>
+    <string name="sign_up_button_description">Sign up as professional</string>
+
+    <!-- Pending Verification Screen -->
+    <string name="verification_pending">Votre Compte est en Attente de Vérification par un Administrateur.</string>
+
+    <!-- Admin Dashboard & Items -->
+    <string name="no_pending_verifications">Aucune Vérification en Attente</string>
+    <string name="approve">Accepter</string>
+    <string name="reject">Rejete</string>
+    <string name="error_fetching_data">Erreur de récupération des données</string>
+    <string name="patient_sign_up">Inscription Patient</string>
+    <string name="sign_up_as_patient">S\'inscrire en Tant que Patient</string>
+    <string name="sign_up_as_professional">S\'inscrire en Tant que Professionnel</string>
+    <string name="need_an_account">Vous Avez Besoin d\'un Compte ?</string>
+    <string name="welcome_placeholder">BIENVENUE</string>
+    <string name="logout">Déconnexion</string>
+
+    <string-array name="categories_array">
+        <item>Interface utilisateur</item>
+        <item>Fonctionnalité</item>
+        <item>Performance</item>
+        <item>Suggestions</item>
+        <item>Autre</item>
+    </string-array>
+
+    <string-array name="sexe_array">
+        <item>Homme</item>
+        <item>Femme</item>
+        <item>Autre</item>
+    </string-array>
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Image de fond -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgr3"
+        android:contentDescription="Image de fond"
+        android:alpha="0.9" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingBottom="32dp">
+
+            <!-- Image de profil -->
+            <ImageView
+                android:id="@+id/imageProfile"
+                android:layout_width="154dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="24dp"
+                android:padding="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/patient" />
+
+            <!-- Nom complet -->
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.RoundedTextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nom Complet :"
+                android:layout_marginBottom="12dp"
+                app:startIconDrawable="@drawable/personne"
+                app:startIconTint="#1E3A8A"
+                app:hintTextColor="#1E3A8A">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#1E3A8A" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Email -->
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.RoundedTextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email :"
+                android:layout_marginBottom="12dp"
+                app:startIconDrawable="@drawable/email"
+                app:startIconTint="#1E3A8A"
+                app:hintTextColor="#1E3A8A">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:textStyle="bold"
+                    android:textColor="#1E3A8A" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Mot de passe -->
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.Material3.RoundedTextInputLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mot de Passe :"
+                android:layout_marginBottom="12dp"
+                app:startIconDrawable="@drawable/password"
+                app:startIconTint="#1E3A8A"
+                app:hintTextColor="#1E3A8A">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:textStyle="bold"
+                    android:textColor="#1E3A8A" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!-- Barre de progression -->
+            <ProgressBar
+                android:id="@+id/progressBarProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:visibility="gone" />
+
+            <!-- Bouton de mise à jour -->
+            <Button
+                android:id="@+id/buttonUpdateProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Mettre à Jour le Profil"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#E53935"
+                android:padding="12dp" />
+
+            <!-- Bouton pour donner un avis -->
+            <Button
+                android:id="@+id/buttonGiveFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Donner un Avis"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#E53935"
+                android:padding="12dp" />
+
+            <!-- Bouton de déconnexion -->
+            <Button
+                android:id="@+id/logoutButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Se Déconnecter"
+                android:layout_marginTop="16dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:backgroundTint="#E53935"
+                android:padding="12dp"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

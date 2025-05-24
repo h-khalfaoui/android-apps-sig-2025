@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F9FAFB">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rechercher un Établissement"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1E3A8A"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Search and Filter container for horizontal alignment -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="12dp">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_search_view"
+            android:iconifiedByDefault="false"
+            android:queryHint="Rechercher un établissement de santé..."
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:elevation="4dp" />
+
+        <Button
+            android:id="@+id/btnFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Filtrer"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/bg_filter_button"
+            android:elevation="4dp"
+            android:paddingHorizontal="20dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- Map container with rounded corners and shadow -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_map_container"
+        android:elevation="6dp" >
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToOutline="true" />
+    </FrameLayout>
+</LinearLayout>

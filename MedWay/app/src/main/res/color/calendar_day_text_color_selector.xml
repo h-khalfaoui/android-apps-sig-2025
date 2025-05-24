@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- For text on 'today' / selected day circle -->
+    <item android:state_activated="true" android:color="@android:color/white"/>
+    <!-- For dates that are not part of the current month or are disabled -->
+    <item android:state_enabled="false" android:color="#808080"/> <!-- Medium Gray -->
+    <!-- Default color for all other dates -->
+    <item android:color="@android:color/black"/>
+</selector>

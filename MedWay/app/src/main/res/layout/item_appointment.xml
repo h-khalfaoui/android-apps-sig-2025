@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="12dp"
+    android:backgroundTint="@android:color/transparent"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="?attr/colorOutline"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Top Row: Date + Time & Status -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:baselineAligned="false"
+            android:weightSum="1">
+
+            <!-- Date & Time -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:orientation="horizontal"
+                android:gravity="start|center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_time"
+                    android:contentDescription="Time icon"
+                    app:tint="?attr/colorOnSurfaceVariant" />
+
+                <TextView
+                    android:id="@+id/item_appt_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/colorOnSurface"
+                    android:textAppearance="?attr/textAppearanceBody1"
+                    tools:text="2025-05-10" />
+
+                <TextView
+                    android:id="@+id/item_appt_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="?attr/colorOnSurfaceVariant"
+                    tools:text="10:30" />
+            </LinearLayout>
+
+            <!-- Status -->
+            <TextView
+                android:id="@+id/item_appt_status"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:gravity="end"
+                android:textAppearance="?attr/textAppearanceLabelSmall"
+                android:textColor="@color/md_theme_primary"
+                android:textStyle="italic"
+                tools:text="[CONFIRMED]" />
+        </LinearLayout>
+
+        <!-- Establishment Name -->
+        <TextView
+            android:id="@+id/item_appt_establishment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="?attr/colorOnSurface"
+            android:textStyle="bold"
+            tools:text="Clinique ABCDEF" />
+
+        <!-- Cancel Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/item_appt_button_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="16dp"
+            android:text="Annuler"
+            app:icon="@drawable/ic_cancel"
+            app:iconPadding="8dp"
+            app:iconTint="@color/design_default_color_error"
+            android:textColor="@color/design_default_color_error"
+            app:cornerRadius="16dp"
+            style="@style/Widget.Material3.Button.TextButton" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

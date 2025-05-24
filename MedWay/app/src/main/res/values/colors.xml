@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#4CAF50</color> <!-- Vert -->
+    <color name="colorAccent">#FFC107</color> <!-- Jaune -->
+    <color name="med_red">#ED1C24</color>
+    <color name="med_blue">#003DA5</color>
+    <color name="primaryColor">#1E3A8A</color>
+    <color name="primaryDarkColor">#0D253F</color>
+    <color name="secondaryTextColor">#616161</color>
+    <color name="primaryBlue">#1E88E5</color>
+    <color name="lightBlue">#BBDEFB</color>
+    <color name="textDarkGray">#212121</color>
+    <color name="lightBackground">#F5F9FF</color>
+
+    <color name="primaryLightColor">#BBDEFB</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#616161</color>
+
+    <color name="background">#F5F5F5</color>
+    <color name="secondaryText">#666666</color>
+    <color name="md_theme_primary">#6200EE</color>
+    <color name="md_theme_onSurface">#1C1B1F</color>
+
+    <color name="primary">#6200EE</color>
+    <color name="primaryText">#212121</color>
+    <color name="calendar_weekday_text_color">#8A000000</color>
+
+    <color name="colorPrimaryDark">#CC0000</color>
+    <color name="item_card_background">#FFFFFF</color>
+    <color name="item_card_stroke">#E0E0E0</color>
+
+    <color name="instruction_header_bg_color">#F5F5F5</color>
+
+    <color name="your_main_background_dark_theme">#121212</color>
+    <color name="your_card_background_dark_theme">#1E1E1E</color>
+    <color name="your_card_stroke_dark_theme">#3A3A3A</color>
+    <color name="your_header_background_dark_theme">#1A1A1A</color>
+
+    <color name="text_primary_dark">#E0E0E0</color>
+    <color name="text_secondary_dark">#A0A0A0</color>
+
+    <color name="your_primary_color_for_calendar">@color/colorPrimary</color>
+    <color name="your_text_secondary_dark_for_calendar">@color/text_secondary_dark</color>
+    <color name="your_text_primary_dark_for_calendar">@color/text_primary_dark</color>
+
+
+
+</resources>

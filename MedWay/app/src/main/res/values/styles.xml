@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><style name="Widget.Material3.RoundedTextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+    <item name="boxCornerRadiusTopStart">16dp</item>
+    <item name="boxCornerRadiusTopEnd">16dp</item>
+    <item name="boxCornerRadiusBottomStart">16dp</item>
+    <item name="boxCornerRadiusBottomEnd">16dp</item>
+</style>
+    <style name="EditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@android:drawable/edit_text</item>
+    </style>
+    <style name="ButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="FormEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@drawable/edittext_background</item>
+    </style>
+
+    <style name="FormButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">#4CAF50</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="rippleColor">#301E3A8A</item>
+    </style>
+
+    <style name="YourApp.CalendarViewStyle" parent="android:Widget.Material.CalendarView">
+        <item name="android:textColorPrimary">@color/calendar_day_text_color_selector</item>
+        <item name="android:textColorSecondary">?android:attr/textColorSecondary</item>
+        <item name="android:colorControlActivated">?attr/colorPrimary</item>
+        <item name="android:dateTextAppearance">@style/YourApp.Calendar.DateTextAppearance</item>
+        <item name="android:weekDayTextAppearance">@style/YourApp.Calendar.WeekDayTextAppearance</item>
+    </style>
+
+    <style name="YourApp.Calendar.DateTextAppearance" parent="android:TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/calendar_day_text_color_selector</item>
+    </style>
+
+    <style name="YourApp.Calendar.WeekDayTextAppearance" parent="android:TextAppearance.Material.Caption">
+        <item name="android:textColor">@color/calendar_weekday_text_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

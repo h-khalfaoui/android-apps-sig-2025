@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.PatientAppointmentsFragment">
+
+    <!-- Titre "Mes Rendez-vous" -->
+    <TextView
+        android:id="@+id/text_view_appointments_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mes Rendez-vous"
+        android:textColor="#1E3A8A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="@android:color/transparent"
+        android:elevation="4dp"/>
+
+    <!-- RecyclerView avec marge pour le titre -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_my_appointments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="72dp"
+    android:paddingBottom="80dp"
+    android:scrollbars="vertical"
+    android:overScrollMode="never"
+    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+    tools:listitem="@layout/item_appointment" />
+
+    <!-- État vide - version améliorée -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/layout_my_appointments_empty"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="72dp"
+    android:visibility="gone"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="8dp"
+    tools:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/empty"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Icône calendrier vide"/>
+
+        <TextView
+            android:id="@+id/text_view_my_appointments_empty_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aucun Rendez-vous"
+            android:textColor="#1E3A8A"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/text_view_my_appointments_empty_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prenez Rendez-vous Pour Commencer"
+            android:textColor="#E21836"
+            android:textSize="14sp"
+            android:gravity="center"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+
+    <!-- Indicateur de chargement -->
+<com.google.android.material.progressindicator.CircularProgressIndicator
+android:id="@+id/loading_indicator_my_appointments"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:layout_gravity="center"
+android:layout_marginTop="72dp"
+    android:indeterminate="true"
+    android:indeterminateTint="#E21836"
+    android:visibility="gone"
+    tools:visibility="visible"/>
+
+    </FrameLayout>
