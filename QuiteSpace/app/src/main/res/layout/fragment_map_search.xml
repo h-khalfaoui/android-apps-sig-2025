@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#043F83"
+        tools:context=".MapSearchFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout_map_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#043F83"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#043F83"
+            app:title="Rechercher Sur Map"
+            app:titleTextColor="@android:color/white"
+            app:navigationIcon="@drawable/ic_arrow_back" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:background="#E0E8F0">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="0dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="8dp"
+            app:shapeAppearanceOverlay="@style/ShapeAppearance.MaterialComponents.MediumComponent"
+            app:cardBackgroundColor="@android:color/white">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:hintEnabled="false"
+                    app:boxCornerRadiusTopStart="24dp"
+                    app:boxCornerRadiusTopEnd="24dp"
+                    app:boxCornerRadiusBottomStart="24dp"
+                    app:boxCornerRadiusBottomEnd="24dp"
+                    app:boxStrokeWidth="1dp"
+                    app:boxStrokeColor="#CCCCCC"
+                    app:endIconMode="custom"
+                    app:endIconDrawable="@drawable/ic_tune"
+                    app:endIconTint="#757575"
+                    app:startIconDrawable="@drawable/ic_search"
+                    app:startIconTint="#757575">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/searchInput_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Rechercher..."
+                        android:background="@null"
+                        android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:layout_marginTop="12dp">
+
+                <com.google.android.material.chip.ChipGroup
+                        android:id="@+id/chipGroup_filters_map"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:singleLine="true"
+                        app:singleSelection="true"> <com.google.android.material.chip.Chip
+                        android:id="@+id/chip_map_tous"
+                        style="@style/Widget.MaterialComponents.Chip.Choice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tous"
+                        android:textColor="@color/chip_map_text_selector"
+                        app:chipBackgroundColor="@color/chip_map_background_selector"/>
+
+                    <com.google.android.material.chip.Chip
+                            android:id="@+id/chip_map_cafes"
+                            style="@style/Widget.MaterialComponents.Chip.Choice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cafés"
+                            android:checked="true"
+                            android:textColor="@color/chip_map_text_selector"
+                            app:chipBackgroundColor="@color/chip_map_background_selector"/>
+
+                    <com.google.android.material.chip.Chip
+                            android:id="@+id/chip_map_bibliotheques"
+                            style="@style/Widget.MaterialComponents.Chip.Choice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Bibliothèques"
+                            android:textColor="@color/chip_map_text_selector"
+                            app:chipBackgroundColor="@color/chip_map_background_selector"/>
+
+                    <com.google.android.material.chip.Chip
+                            android:id="@+id/chip_map_coworking"
+                            style="@style/Widget.MaterialComponents.Chip.Choice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Espaces Coworking"
+                            android:textColor="@color/chip_map_text_selector"
+                            app:chipBackgroundColor="@color/chip_map_background_selector"/>
+                </com.google.android.material.chip.ChipGroup>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+        <FrameLayout
+                android:id="@+id/map_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/darker_gray"> <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Map Area"
+                android:layout_gravity="center"
+                android:textSize="20sp"/>
+
+        </FrameLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

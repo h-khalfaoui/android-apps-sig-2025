@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Photo du café -->
+        <ImageView
+            android:id="@+id/cafeImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_cafe" />
+
+        <!-- Nom -->
+        <TextView
+            android:id="@+id/cafeName"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Ville et Adresse -->
+        <TextView
+            android:id="@+id/cafeCity"
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/cafeLocation"
+            android:textSize="16sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Description -->
+        <TextView
+            android:text="Description"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/cafeDescription"
+            android:textSize="16sp"
+            android:textColor="#444"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Type -->
+        <TextView
+            android:id="@+id/cafeType"
+            android:text="Type : "
+            android:textSize="16sp"
+            android:textColor="#444"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Equipements -->
+        <TextView
+            android:id="@+id/cafeEquipments"
+            android:text="Équipements : "
+            android:textSize="16sp"
+            android:textColor="#444"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Niveau sonore -->
+        <TextView
+            android:id="@+id/cafeNoise"
+            android:text="Niveau sonore : "
+            android:textSize="16sp"
+            android:textColor="#444"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Disponibilité -->
+        <TextView
+            android:id="@+id/cafeAvailability"
+            android:text="Disponibilité : "
+            android:textSize="16sp"
+            android:textColor="#444"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Coût moyen -->
+        <TextView
+            android:id="@+id/cafeCost"
+            android:text="Coût moyen : "
+            android:textSize="16sp"
+            android:textColor="#444"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modifier"
+            android:background="@color/chip_selected_background_color"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supprimer"
+            android:background="@color/chip_selected_background_color"
+            android:textColor="#FFF"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>

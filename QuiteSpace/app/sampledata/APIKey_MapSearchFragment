@@ -1,0 +1,123 @@
+package com.example.quietspaceeee;
+
+import android.Manifest;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.Fragment;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.location.Priority;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+public class MapSearchFragment extends Fragment implements OnMapReadyCallback {
+
+    private GoogleMap googleMap;
+    private FusedLocationProviderClient fusedLocationClient;
+    private RequestQueue requestQueue;
+    private final String API_KEY = "AIzaSyDXYvvB5Up1uqvQRNaHbUOuxbO6tIxCUH0"; // Replace with your real API key
+
+    public MapSearchFragment() {}
+
+    @Nullable
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_map_search, container, false);
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view,
+                              @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        fusedLocationClient = LocationServices.getFusedLocationProviderClient(requireActivity());
+        requestQueue = Volley.newRequestQueue(requireContext());
+
+        SupportMapFragment mapFragment = new SupportMapFragment();
+        getChildFragmentManager().beginTransaction()
+                .replace(R.id.map_container, mapFragment)
+                .commit();
+
+        mapFragment.getMapAsync(this);
+    }
+
+    @Override
+    public void onMapReady(@NonNull GoogleMap map) {
+        this.googleMap = map;
+
+        if (ActivityCompat.checkSelfPermission(requireContext(), Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(requireActivity(),
+                    new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            return;
+        }
+
+        googleMap.setMyLocationEnabled(true);
+
+        fusedLocationClient.getCurrentLocation(Priority.PRIORITY_HIGH_ACCURACY, null)
+                .addOnSuccessListener(location -> {
+                    if (location != null) {
+                        LatLng userLatLng = new LatLng(location.getLatitude(), location.getLongitude());
+                        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLatLng, 15));
+                        findNearbyCafes(location);
+                    }
+                });
+
+    }
+
+    private void findNearbyCafes(Location location) {
+        double lat = location.getLatitude();
+        double lng = location.getLongitude();
+        int radius = 4000; // meters
+        String type = "cafe";
+
+        String url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?" +
+                "location=" + lat + "," + lng +
+                "&radius=" + radius +
+                "&type=" + type +
+                "&key=" + API_KEY;
+
+        JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null,
+                response -> {
+                    try {
+                        JSONArray results = response.getJSONArray("results");
+
+                        for (int i = 0; i < results.length(); i++) {
+                            JSONObject place = results.getJSONObject(i);
+                            JSONObject loc = place.getJSONObject("geometry").getJSONObject("location");
+                            String name = place.getString("name");
+                            LatLng cafeLatLng = new LatLng(loc.getDouble("lat"), loc.getDouble("lng"));
+                            googleMap.addMarker(new MarkerOptions().position(cafeLatLng).title(name));
+                        }
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                },
+                error -> error.printStackTrace()
+        );
+
+        requestQueue.add(request);
+    }
+}

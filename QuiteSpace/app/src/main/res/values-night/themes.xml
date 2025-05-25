@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.QuietSpaceeee" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Theme.QuietSpaceeee" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Couleur primaire -->
+        <item name="colorPrimary">#043F83</item>
+        <item name="colorPrimaryVariant">#043F83</item>
+
+        <!-- Couleur de la status bar -->
+        <item name="android:statusBarColor">#043F83</item>
+
+        <!-- Couleur des icônes dans la status bar (blanches) -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- (Optionnel) Couleur de la barre de navigation -->
+        <item name="android:navigationBarColor">#000000</item>
+    </style>
+</resources>
