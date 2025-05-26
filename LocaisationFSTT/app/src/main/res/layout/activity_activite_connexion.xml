@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".ActiviteConnexion">
+
+    <!-- Top Image -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="330dp"
+        android:layout_height="120dp"
+        android:src="@drawable/fst_logo"
+        android:contentDescription="Logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Space between image and form -->
+    <Space
+        android:id="@+id/imageSpacer"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        app:layout_constraintTop_toBottomOf="@id/logoImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Email Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/texteEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Email (use admin@admin.com to test)"
+        app:layout_constraintTop_toBottomOf="@id/imageSpacer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editionEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/texteMotDePasse"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Mot de Passe (use 123456 to test)"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/texteEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editionMotDePasse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Se Connecter Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/boutonConnexion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="12dp"
+        android:text="Se Connecter"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#3366FF"
+        app:layout_constraintTop_toBottomOf="@id/texteMotDePasse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- S'inscrire Button -->
+    <Button
+        android:id="@+id/bouton_inscription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:text="S’inscrire"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#3366FF"
+        app:layout_constraintTop_toBottomOf="@id/boutonConnexion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Suivre sans connexion Button -->
+    <Button
+        android:id="@+id/button_offline"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="Suivre Anonymous"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#3399FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
