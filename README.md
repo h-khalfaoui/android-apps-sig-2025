@@ -5,7 +5,7 @@ can view these claims and decide whether to accept or reject them. Users also ha
 ability to preview accepted claims. Additionally, administrators receive notifications  
 for each new claim submitted.
 
-Team Members
+Team Members:
 
 Moutamanni Abdourrahmane
 Ben Aata Saad Eddine
