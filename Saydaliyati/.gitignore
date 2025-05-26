@@ -1,0 +1,16 @@
+*.iml
+../../Downloads/Saydaliyati_Zian_Cherki_Khoussi/Saydaliyati_Zian_Cherki_Khoussi/Saydaliyati/Saydaliyati/Saydaliyati/.gradle
+/local.properties
+/.idea
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties

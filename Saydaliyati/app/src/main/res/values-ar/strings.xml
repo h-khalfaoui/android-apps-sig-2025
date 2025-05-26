@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">صيدليتي</string>
+    <string name="app_slogan">ابحث عن الصيدليات القريبة منك، بما في ذلك الصيدليات المناوبة</string>
+    <string name="app_version">الإصدار 1.0</string>
+    <string name="get_started">ابدأ</string>
+    <string name="authority_login">تسجيل دخول المسؤول</string>
+    <string name="admin_dashboard">لوحة تحكم المسؤول</string>
+    <string name="app_logo_description">شعار التطبيق</string>
+    <string name="pharmacy_admin_login">تسجيل دخول مسؤول الصيدلية</string>
+
+    <!-- Titles -->
+    <string name="title_pharmacy_finder">البحث عن الصيدليات</string>
+    <string name="title_admin_login">تسجيل دخول المسؤول</string>
+    <string name="title_admin_dashboard">لوحة التحكم</string>
+    <string name="title_add_pharmacy">إضافة صيدلية</string>
+    <string name="title_assign_guard_date">تعيين مواعيد المناوبة</string>
+
+    <!-- General -->
+    <string name="action_sign_in">تسجيل الدخول</string>
+    <string name="prompt_username">اسم المستخدم</string>
+    <string name="prompt_password">كلمة المرور</string>
+    <string name="forgot_password">نسيت كلمة المرور؟</string>
+    <string name="error_field_required">هذا الحقل مطلوب</string>
+    <string name="error_invalid_password">كلمة المرور قصيرة جدًا</string>
+    <string name="error_incorrect_credentials">بيانات الاعتماد غير صحيحة</string>
+
+    <!-- Settings -->
+    <string name="settings">الإعدادات</string>
+    <string name="language_settings">إعدادات اللغة</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="french">الفرنسية</string>
+    <string name="arabic">العربية</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="settings_saved">تم حفظ الإعدادات</string>
+
+    <!-- Notifications -->
+    <string name="notifications">الإشعارات</string>
+    <string name="enable_notifications">تفعيل الإشعارات</string>
+    <string name="duty_pharmacy_notifications">إشعارات الصيدليات المناوبة</string>
+    <string name="notify_before_hours">إشعار قبل ساعات من المناوبة</string>
+    <string name="notify_on_change">إشعار عند تغيير الصيدليات المناوبة</string>
+    <string name="pharmacy_on_duty">صيدلية مناوبة</string>
+    <string name="tomorrow">غدا</string>
+    <string name="in_one_hour">خلال ساعة</string>
+    <string name="pharmacy_duty_notification">%1$s ستكون مناوبة %2$s</string>
+    <string name="new_duty_pharmacy">صيدلية مناوبة جديدة</string>
+    <string name="new_duty_pharmacy_notification">تم تعيين %1$s كصيدلية مناوبة ليوم %2$s</string>
+
+    <string name="opening_map">جاري فتح الخريطة...</string>
+</resources>
