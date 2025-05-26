@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="siteImageView_lat" type="id"/>
+    <item name="siteImageView_lon" type="id"/>
+</resources>
