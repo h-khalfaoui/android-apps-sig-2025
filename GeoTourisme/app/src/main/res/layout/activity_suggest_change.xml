@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Quelles modifications souhaitez-vous suggérer ?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Cases à cocher -->
+        <CheckBox android:id="@+id/cb_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact modifié" />
+
+        <CheckBox android:id="@+id/cb_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description inexacte" />
+
+        <CheckBox android:id="@+id/cb_doublon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doublon" />
+
+        <CheckBox android:id="@+id/cb_ferme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fermé temporairement" />
+
+        <CheckBox android:id="@+id/cb_localisation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mauvaise localisation" />
+
+        <CheckBox android:id="@+id/cb_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mauvaise photo" />
+
+        <CheckBox android:id="@+id/cb_nexisteplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N'existe plus" />
+
+        <CheckBox android:id="@+id/cb_nommodifie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom modifié ou inaccessible au public" />
+
+        <CheckBox android:id="@+id/cb_autre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autre" />
+
+        <!-- Champ pour précision si "autre" -->
+        <EditText
+            android:id="@+id/editOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Précisez ici..."
+            android:layout_marginTop="8dp" />
+
+        <!-- Bouton pour envoyer -->
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envoyer"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

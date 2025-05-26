@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- SELECTED STATE -->
+<item android:state_selected="true">
+    <layer-list>
+
+        <!-- 1) pill shape: use transparent fill + stroke for a true outline -->
+        <item android:gravity="start|center_vertical">
+            <shape android:shape="rectangle">
+                <!-- transparent fill -->
+                <solid android:color="@android:color/transparent"/>
+                <!-- real green stroke -->
+                <stroke
+                    android:width="0dp"
+                    android:color="@color/selector_blue_stroke"/>
+
+                <corners android:radius="12dp"/>
+            </shape>
+        </item>
+
+        <!-- 2) the X icon, forced white via android:tint -->
+        <item
+            android:drawable="@drawable/ic_x"
+            android:gravity="center"
+            android:tint="@android:color/white"/>
+    </layer-list>
+</item>
+
+<!-- DEFAULT STATE: just the nature icon -->
+<item android:drawable="@drawable/ic_museum" />
+</selector>
