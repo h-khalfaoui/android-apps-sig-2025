@@ -1,0 +1,54 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.alert">
+
+    <!-- Déclaration des fonctionnalités -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="32" tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:label="FixRoute"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Alert"
+        tools:ignore="MissingApplicationIcon">
+
+        <!-- API Key pour Google Maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC6P-9o2CVdZ_lhBtIWJ3kGizca5Nr-V_Y" />
+
+        <!-- Définir l'activité de lancement -->
+        <activity android:name=".activities.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <!-- Autres activités -->
+        <activity android:name=".activities.AdminDashboardActivity" />
+        <activity android:name=".activities.HomeActivity" />
+
+        <activity android:name=".activities.SignUpActivity" />
+        <activity android:name=".activities.ClaimActivity" />
+        <activity android:name=".activities.ViewClaimsActivity" />
+        <activity android:name=".activities.AlertDetailsActivity" />
+        <activity android:name=".activities.MainActivity" />
+
+    </application>
+
+</manifest>

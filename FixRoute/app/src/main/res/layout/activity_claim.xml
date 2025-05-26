@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="386dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="8dp"
+        android:background="#E0E0E0"
+        android:padding="8dp"
+        android:text="Localisation : "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="Entrez une description de votre réclamation"
+        android:inputType="textMultiLine|textCapSentences"
+        android:gravity="top|start"
+        android:padding="12dp"
+        android:background="#F0F0F0"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/importImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Importer une image"
+        android:textColor="@android:color/white"
+        android:background="#6200EE"
+        android:layout_marginTop="10dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:background="#E0E0E0" />
+
+    <Button
+        android:id="@+id/submitClaimButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envoyer la réclamation"
+        android:textColor="@android:color/white"
+        android:background="#6200EE"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

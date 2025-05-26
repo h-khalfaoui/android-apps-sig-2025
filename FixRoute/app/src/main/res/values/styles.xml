@@ -1,0 +1,53 @@
+<resources>
+    <!-- Styles pour les Conteneurs -->
+    <style name="ContainerStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="android:background">@color/card_background</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <!-- Styles pour les Titres -->
+    <style name="TitleTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- Styles pour les Champs de Texte -->
+    <style name="EditTextStyle">
+        <item name="android:padding">16dp</item>
+        <item name="android:background">@drawable/rounded_input</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_secondary</item>
+    </style>
+
+    <!-- Styles pour les Boutons -->
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/button_primary</item>
+        <item name="android:textColor">@color/on_error</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ButtonStyle.Secondary" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/button_secondary</item>
+        <item name="android:textColor">@color/on_error</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ButtonStyle.Danger" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/button_danger</item>
+        <item name="android:textColor">@color/on_error</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/purple_500</item>
+    </style>
+</resources>

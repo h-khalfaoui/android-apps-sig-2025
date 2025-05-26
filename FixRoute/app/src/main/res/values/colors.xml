@@ -1,0 +1,29 @@
+<resources>
+    <color name="primary">#6200EE</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="secondary">#03DAC5</color>
+
+    <color name="background">#F0F0F0</color>
+    <color name="background_dark">#121212</color>
+
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <color name="button_primary">#6200EE</color>
+    <color name="button_secondary">#03DAC5</color>
+    <color name="button_danger">#B00020</color>
+
+
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_border">#E0E0E0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="inputBackground">#FFFFFF</color>
+
+    <color name="accent">#03DAC5</color>
+
+    <color name="purple_700">#6200EE</color>
+    <color name="purple_500">#BB86FC</color>
+    <color name="purple_200">#BB86FC</color>
+</resources>
