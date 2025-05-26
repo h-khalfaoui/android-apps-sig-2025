@@ -7,7 +7,7 @@ for each new claim submitted.
 
 Team Members:
 
-Moutamanni Abdourrahmane
+Moutamanni Abdourrahmane 
 Ben Aata Saad Eddine
 Bellali Hafsa
 Assila Hajar
