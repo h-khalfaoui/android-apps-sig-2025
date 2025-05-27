@@ -1,17 +1,10 @@
-The "FixRoute" project is an Android mobile app for location-based claim management,  
-designed to report road-related issues such as potholes, cracks, or other defects.  
-It allows users to submit claims with images and detailed descriptions. Administrators  
-can view these claims and decide whether to accept or reject them. Users also have the  
-ability to preview accepted claims. Additionally, administrators receive notifications  
-for each new claim submitted.
+""Android Applications – SIG Projects (2025)""
 
-Team Members:
+This repository contains Android applications developed by students in the 2nd year of the Engineering Cycle (Géoinformation) at FST Tangier, Morocco, as part of the Mobile Development module supervised by Ms. Hafida Khalfaoui.
 
-Moutamanni Abdourrahmane 
-Ben Aata Saad Eddine
-Bellali Hafsa
-Assila Hajar
+Each subdirectory corresponds to a student project and includes:
+1. The complete source code of the Android application.
+2. A README.md file describing the project.
+3. A screenshots/ folder containing images of the application interface.
 
-Supervision
-
-Supervised by Ms. Khalfaoui Hafida 
+This repository serves as a shared space for collaboration, visibility, and recognition of the students’ work.
