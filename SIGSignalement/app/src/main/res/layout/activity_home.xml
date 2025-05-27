@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SIGAssainissement : BIENVENUE"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="24dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="437dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/rounded_image_bg"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/images" />
+
+        <Button
+            android:id="@+id/buttonSignaler"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Signaler un problème"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/buttonHistorique"
+            style="@style/PrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Historique des signalements"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/buttonLogout"
+            style="@style/SecondaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Se déconnecter" />
+
+    </LinearLayout>
+</ScrollView>

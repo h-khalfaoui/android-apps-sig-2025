@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs classiques -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Couleurs supplémentaires -->
+    <color name="colorTextPrimary">#212121</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorBackground">#F5F5F5</color> <!-- 👈 ajoutée ici -->
+
+    <!-- Palette moderne -->
+    <color name="primary">#6200EE</color>
+    <color name="primaryVariant">#3700B3</color>
+    <color name="secondary">#03DAC5</color>
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="onSecondary">#000000</color>
+    <color name="onBackground">#000000</color>
+    <color name="black">#000000</color>
+    <color name="dark_gray">#555555</color>
+
+
+
+
+
+
+
+
+
+
+
+</resources>
