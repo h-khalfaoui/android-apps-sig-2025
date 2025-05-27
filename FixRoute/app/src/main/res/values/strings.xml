@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">FixRoute</string>
+    <string name="login_title">Connexion</string>
+    <string name="signup_title">Créer un Compte</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="login_button">Se connecter</string>
+    <string name="signup_button">Créer un compte</string>
+    <string name="logout_button">Déconnexion</string>
+    <string name="location_label">📍 Localisation :</string>
+    <string name="description_label">📝 Description :</string>
+
+    <string name="no_claims_message">Aucune réclamation en attente</string>
+    <string name="no_claims">Aucune réclamation trouvée.</string>
+    <string name="claim_sent">Réclamation envoyée avec succès</string>
+    <string name="fill_all_fields">Veuillez remplir tous les champs.</string>
+    <string name="invalid_credentials">Nom d\'utilisateur ou mot de passe incorrect</string>
+    <string name="location_placeholder">Localisation : </string>
+    <string name="import_image">Importer une image</string>
+    <string name="send_claim">Envoyer la réclamation</string>
+    <string name="google_maps_api_key">AIzaSyC6P-9o2CVdZ_lhBtIWJ3kGizca5Nr-V_Y</string>
+    <string name="welcome_text">Bienvenue sur l\'application FixRoute</string>
+    <string name="send_claim_button">Envoyer une réclamation</string>
+    <string name="claims_container_description">Liste des réclamations</string>
+
+    <string name="logout_title">Déconnexion</string>
+    <string name="logout_confirmation">Voulez-vous vraiment vous déconnecter ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="dashboard_title">Tableau de bord</string>
+    <string name="view_claims_button">Voir les réclamations</string>
+    <string name="claim_location">📍 Localisation :</string>
+    <string name="claim_description">📝 Description :</string>
+    <string name="no_claims_found">Aucune réclamation trouvée.</string>
+</resources>
